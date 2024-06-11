@@ -1,4 +1,4 @@
-<!-- <div class="firstContainer-new ">
+<div class="firstContainer-new ">
     <div class="wrapper">
         <div class="content-wrap">
             <section class="section hero"></section>
@@ -6,10 +6,10 @@
             <section class="section gradient-blue"></section>
         </div>
         <div class="image-container">
-            <img src="<?php echo base_url() ?>assets/images/loader/Final_landing_2.png" alt="image">
+            <img src="<?php echo base_url() ?>assets/images/loader/landing-png.png" alt="image">
         </div>
     </div>
-</div> -->
+</div>
 
 
 
@@ -36,8 +36,12 @@
         </div>
     </div>
 
-    <div class="first-sidebar">
-        
+    <div class="first-sidebar d-flex">
+        <div class="inner-sidebar">
+
+            <h4> <i class="fa-brands fa-youtube"></i> Webinars</h4>
+
+        </div>
     </div>
 
 </div>
@@ -46,7 +50,7 @@
 <div class="custom-container">
 
     <div class="description panel ">
-        <div class="container-fluid">
+        <div class="container-fluid container-introduction">
             <div class="row num-container">
                 <div class="col-md-3">
                     <div class="intro_logo">
@@ -152,7 +156,55 @@
         </div>
         <div class="sidebar">
             <button class="close-btn">&times;</button>
-            <h2>Sidebar Content</h2>
+            <h2 class="sidebar-title">Product Details</h2>
+
+            <div class="product-detail">
+                <h3 class="product-name">Product Name: SuperWidget 3000</h3>
+                <p class="product-description"><strong>Description:</strong> The SuperWidget 3000 is the latest innovation in widget technology, providing unparalleled performance and versatility for all your widget needs.</p>
+
+                <p class="product-price"><strong>Price:</strong> $299.99</p>
+
+                <h4 class="features-title">Features:</h4>
+                <ul class="features-list">
+                    <li>High-speed processing</li>
+                    <li>Advanced AI integration</li>
+                    <li>Compact and lightweight design</li>
+                    <li>Extended battery life</li>
+                    <li>Multi-device compatibility</li>
+                </ul>
+
+                <h4 class="specifications-title">Specifications:</h4>
+                <table class="specifications-table">
+                    <tr>
+                        <th>Specification</th>
+                        <th>Details</th>
+                    </tr>
+                    <tr>
+                        <td>Processor</td>
+                        <td>Quad-core 3.2 GHz</td>
+                    </tr>
+                    <tr>
+                        <td>RAM</td>
+                        <td>8GB DDR4</td>
+                    </tr>
+                    <tr>
+                        <td>Storage</td>
+                        <td>256GB SSD</td>
+                    </tr>
+                    <tr>
+                        <td>Battery Life</td>
+                        <td>Up to 12 hours</td>
+                    </tr>
+                    <tr>
+                        <td>Weight</td>
+                        <td>1.2 lbs</td>
+                    </tr>
+                    <tr>
+                        <td>Dimensions</td>
+                        <td>10" x 6" x 0.5"</td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
 
@@ -470,7 +522,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="inner-cards text-center card-color-1 element-card-1">
-                        <img src="<?php echo base_url() ?>assets/images/connect-images/icon-2.png" alt="img-1">
+                            <img src="<?php echo base_url() ?>assets/images/connect-images/icon-2.png" alt="img-1">
 
                             <button>
                                 Free Trail
@@ -479,7 +531,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="inner-cards text-center card-color-2 element-card-2">
-                        <img src="<?php echo base_url() ?>assets/images/connect-images/icon-1.png" alt="img-1">
+                            <img src="<?php echo base_url() ?>assets/images/connect-images/icon-1.png" alt="img-1">
                             <button class="btn-position-1">
                                 Speak to a Scientist
                             </button>
@@ -556,7 +608,7 @@
 
         <div class="footer-items">
             <h3>Quick Links</h3>
-            <div class="border1"></div> 
+            <div class="border1"></div>
             <ul>
                 <a href="#">
                     <li>Home</li>
@@ -575,7 +627,7 @@
 
         <div class="footer-items">
             <h3>Recipes</h3>
-            <div class="border1"></div> 
+            <div class="border1"></div>
             <ul>
                 <a href="#">
                     <li>Indian</li>

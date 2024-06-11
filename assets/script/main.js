@@ -1,3 +1,25 @@
+document.addEventListener('DOMContentLoaded', function () {
+    const contentSection = document.getElementById('content');
+    const sidebar = document.querySelector('.first-sidebar');
+
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.4
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                sidebar.classList.add('visible');
+            } else {
+                sidebar.classList.remove('visible');
+            }
+        });
+    }, observerOptions);
+
+    observer.observe(contentSection);
+});
 
 
 

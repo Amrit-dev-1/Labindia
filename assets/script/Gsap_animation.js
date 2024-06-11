@@ -11,8 +11,11 @@ document.addEventListener('DOMContentLoaded', () => {
         scrollTrigger: {
             trigger: ".custom-container",
             pin: true,
-            scrub: true,
-            end: () => "+=" + document.querySelector(".custom-container").offsetWidth
+            scrub: 1,
+        
+            snap: 1 / (sections.length - 1), // Add snapping behavior
+               end: () => "+=" + document.querySelector(".custom-container").offsetWidth
+            
         }
     });
 
