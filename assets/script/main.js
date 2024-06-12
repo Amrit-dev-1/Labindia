@@ -1,3 +1,6 @@
+
+
+
 document.addEventListener('DOMContentLoaded', function () {
     const contentSection = document.getElementById('content');
     const sidebar = document.querySelector('.first-sidebar');

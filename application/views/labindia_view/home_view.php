@@ -83,15 +83,24 @@
             <div class="row background-color-3">
                 <div class="col-md-6">
                     <div class="intro-img">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner – 1/Group-1.png" class="img-fluid icon" alt="icon1">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner – 1/Group-2.png" class="img-fluid icon" alt="icon2">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner – 1/Group-3.png" class="img-fluid icon" alt="icon3">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner – 1/Group-4.png" class="img-fluid icon" alt="icon4">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner – 1/Group-5.png" class="img-fluid icon" alt="icon5">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner – 1/Group-6.png" class="img-fluid icon" alt="icon6">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner – 1/Group-7.png" class="img-fluid icon" alt="icon7">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner – 1/Group-8.png" class="img-fluid icon" alt="icon8">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner – 1/Group-9.png" class="img-fluid icon" alt="icon8">
+                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-1.png"
+                            class="img-fluid icon" alt="icon1">
+                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-2.png"
+                            class="img-fluid icon" alt="icon2">
+                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-3.png"
+                            class="img-fluid icon" alt="icon3">
+                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-4.png"
+                            class="img-fluid icon" alt="icon4">
+                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-5.png"
+                            class="img-fluid icon" alt="icon5">
+                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-6.png"
+                            class="img-fluid icon" alt="icon6">
+                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-7.png"
+                            class="img-fluid icon" alt="icon7">
+                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-8.png"
+                            class="img-fluid icon" alt="icon8">
+                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-9.png"
+                            class="img-fluid icon" alt="icon8">
 
                     </div>
                 </div>
@@ -118,7 +127,7 @@
     <!-- 2nd panel start -->
 
     <div class="panel background-color-3">
-        <div class="testimonial-content">
+        <div class="testimonial-content element-to-animate-3">
             <h3>Recommend Product</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
@@ -126,7 +135,7 @@
             <section class="cards-blog">
                 <div class="card-testimonial card-color-1">
 
-                    <div class="product-card-inner text-center">
+                    <div class="product-card-inner text-center element-to-animate-3">
                         <img src="assets/images/product/product-1.png" alt="">
                         <div class="content-position">
                             <h4 class="product-detail">Soxhlet Fat Analyzer</h4>
@@ -134,7 +143,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-testimonial card-color-2">
+                <div class="card-testimonial card-color-2 element-to-animate-3">
                     <div class="product-card-inner text-center">
                         <img src="assets/images/product/product-2.png" alt="">
                         <div class="content-position">
@@ -143,7 +152,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-testimonial card-color-3">
+                <div class="card-testimonial card-color-3 element-to-animate-3">
                     <div class="product-card-inner text-center">
                         <img src="assets/images/product/product-3.png" alt="">
                         <div class="content-position">
@@ -160,7 +169,9 @@
 
             <div class="product-detail">
                 <h3 class="product-name">Product Name: SuperWidget 3000</h3>
-                <p class="product-description"><strong>Description:</strong> The SuperWidget 3000 is the latest innovation in widget technology, providing unparalleled performance and versatility for all your widget needs.</p>
+                <p class="product-description"><strong>Description:</strong> The SuperWidget 3000 is the latest
+                    innovation in widget technology, providing unparalleled performance and versatility for all your
+                    widget needs.</p>
 
                 <p class="product-price"><strong>Price:</strong> $299.99</p>
 
@@ -218,12 +229,14 @@
                 <div class="col-md-7">
                     <div class="content-text element-to-animate-3">
                         <h2>We Are <span>Always Open</span> <br> To Your Needs!</h2>
-                        <p>“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna”</p>
+                        <p>“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna”</p>
                         <button>Connect Now</button>
                     </div>
                 </div>
                 <div class="connect-img ">
-                    <img src="<?php echo base_url()  ?>assets/images/connect-img-white.png" class="img-fluid" alt="Connect Image">
+                    <img src="<?php echo base_url() ?>assets/images/connect-img-white.png" class="img-fluid"
+                        alt="Connect Image">
                     <div class="connect-btn d-flex ">
                         <p>Contact Us:</p>
                         <a href="#"><i class="fa-solid fa-phone"></i> +91 9136 9095 78</a>
@@ -239,77 +252,15 @@
     <!-- 3rd panel end  -->
 
     <!-- panel 4 start -->
-    <!-- <section class="panel background-color-3">
-        <div class="container-tab text-white">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="heading-new text-left mt-0 p-3">
-                        <h3 class="element-to-animate-3">What's New</h3>
-                        <p class="element-to-animate-3">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna”</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="row mt-4">
-                        <div class="col-custom text-center element-to-animate-4">
-                            <button class="btn tab-button active" onclick="showCards(1)">Button 1</button>
-                            <button class="btn tab-button" onclick="showCards(2)">Button 2</button>
-                            <button class="btn tab-button" onclick="showCards(3)">Button 3</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="news-cards">
-                <div class="container">
-                    <div class="row mt-0 card-container" id="card-container">
-                        <div class="col-12 col-md-4 card-content card-1 element-to-animate-3">
-                            <div class="card-custom">
-                                <div class="card-inner">
-                                    <img src="assets/images/news/news1-1.png" class=" img-fluid" alt="">
-                                    <div class="card-body">
-                                        <span>Category Name | Date</span>
-                                        <h5 class="card-title">Headline for the</h5>
-                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4 card-content card-1 element-to-animate-3">
-                            <div class="card-custom">
-                                <div class="card-inner">
-                                    <img src="assets/images/news/news1-1.png" class=" img-fluid" alt="">
-                                    <div class="card-body">
-                                        <span>Category Name | Date</span>
-                                        <h5 class="card-title">Headline for the</h5>
-                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4 card-content card-1 element-to-animate-3">
-                            <div class="card-custom">
-                                <div class="card-inner">
-                                    <img src="assets/images/news/news1-1.png" class=" img-fluid" alt="">
-                                    <div class="card-body">
-                                        <span>Category Name | Date</span>
-                                        <h5 class="card-title">Headline for the</h5>
-                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+
     <section class="panel background-color-3">
         <div class="container-tab text-white">
             <div class="row">
                 <div class="col-md-6">
                     <div class="heading-new text-left mt-0 p-3">
                         <h3 class="element-to-animate-3">What's New</h3>
-                        <p class="element-to-animate-3">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna”</p>
+                        <p class="element-to-animate-3">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                            diam nonumy eirmod tempor invidunt ut labore et dolore magna”</p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -368,8 +319,69 @@
         </div>
     </section>
 
-
     <!-- panel 4 end  -->
+
+    <!-- addtional Panel start -->
+
+
+    <section class="panel background-color-3 ">
+        <div class="container-client">
+            <div class="content-card text-white blog-animation-1">
+                <h2>What Our Client Say</h2>
+                <p>Discover what our client have to say about their experience with</p>
+                <h1>LabINDIA<br> ANALYTICAL</h1>
+            </div>
+            <div class="swiper-container mySwiper" id="swiper-container">
+                <div class="swiper-wrapper element-to-animate-3 ">
+
+                    <div class="swiper-slide">
+                        <div class="name-detail">
+                            <h4>Cia Rodriguez</h4>
+                            <span>5 Hours</span>
+                        </div>
+                        <p class="customer-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum laudantium illum sed quibusdam quam numquam, nam aut assumenda veritatis sit, debitis dolor modi obcaecati quia autem dignissimos eligendi. Omnis.</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="name-detail">
+                            <h4>Cia Rodriguez</h4>
+                            <span>5 Hours</span>
+                        </div>
+                        <p class="customer-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum laudantium illum sed quibusdam quam numquam, nam aut assumenda veritatis sit, debitis dolor modi obcaecati quia autem dignissimos eligendi. Omnis.</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="name-detail">
+                            <h4>Cia Rodriguez</h4>
+                            <span>5 Hours</span>
+                        </div>
+                        <p class="customer-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum laudantium illum sed quibusdam quam numquam, nam aut assumenda veritatis sit, debitis dolor modi obcaecati quia autem dignissimos eligendi. Omnis.</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="name-detail">
+                            <h4>Cia Rodriguez</h4>
+                            <span>5 Hours</span>
+                        </div>
+                        <p class="customer-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum laudantium illum sed quibusdam quam numquam, nam aut assumenda veritatis sit, debitis dolor modi obcaecati quia autem dignissimos eligendi. Omnis.</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="name-detail">
+                            <h4>Cia Rodriguez</h4>
+                            <span>5 Hours</span>
+                        </div>
+                        <p class="customer-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum laudantium illum sed quibusdam quam numquam, nam aut assumenda veritatis sit, debitis dolor modi obcaecati quia autem dignissimos eligendi. Omnis.</p>
+                    </div>
+                    
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- addtional Panel end -->
 
     <!-- panel 5 start -->
 
@@ -386,19 +398,27 @@
 
                 <div class="form-inputs">
                     <form action="POST">
-                        <input type="text" id="fname" name="firstname" class="custom-input element-to-animate" placeholder="Your first name..">
+                        <input type="text" id="fname" name="firstname" class="custom-input element-to-animate"
+                            placeholder="Your first name..">
 
-                        <input type="email" id="email" name="email" class="custom-input element-to-animate" placeholder="Your email..">
+                        <input type="email" id="email" name="email" class="custom-input element-to-animate"
+                            placeholder="Your email..">
 
-                        <input type="tel" id="phone" name="phone" class="custom-input element-to-animate" placeholder="Your phone number..">
+                        <input type="tel" id="phone" name="phone" class="custom-input element-to-animate"
+                            placeholder="Your phone number..">
 
-                        <input type="text" id="city" name="city" class="custom-input element-to-animate" placeholder="Your city..">
+                        <input type="text" id="city" name="city" class="custom-input element-to-animate"
+                            placeholder="Your city..">
 
-                        <input type="text" id="purchase" name="purchase" class="custom-input element-to-animate" placeholder="When are you planning to purchase">
+                        <input type="text" id="purchase" name="purchase" class="custom-input element-to-animate"
+                            placeholder="When are you planning to purchase">
 
-                        <input type="date" id="application" name="application" class="custom-input element-to-animate" placeholder="Application">
+                        <input type="date" id="application" name="application" class="custom-input element-to-animate"
+                            placeholder="Application">
 
-                        <textarea id="requirements" name="requirements" rows="4" cols="50" class="custom-input element-to-animate" placeholder="Please elaborate your requirement"></textarea>
+                        <textarea id="requirements" name="requirements" rows="4" cols="50"
+                            class="custom-input element-to-animate"
+                            placeholder="Please elaborate your requirement"></textarea>
 
                         <div class="check-box d-flex">
                             <input type="checkbox" id="agree" name="agree">
@@ -420,10 +440,12 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card-blog blog-animation-1">
-                        <img src="<?php echo base_url() ?>assets/images/Bitmap/Bitmap.png" class="img-fluid" alt="image-1">
+                        <img src="<?php echo base_url() ?>assets/images/Bitmap/Bitmap.png" class="img-fluid"
+                            alt="image-1">
                         <div class="blog-content">
                             <h4>Tablet Hardness Testers</h4>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna</p>
                             <div class="date-n-button">
                                 <span>
                                     <p><i class="fa-regular fa-calendar"></i> 23 May 2024</p>
@@ -436,10 +458,12 @@
 
                 <div class="col-md-4">
                     <div class="card-blog blog-animation-2">
-                        <img src="<?php echo base_url() ?>assets/images/Bitmap/Bitmap.png" class="img-fluid" alt="image-1">
+                        <img src="<?php echo base_url() ?>assets/images/Bitmap/Bitmap.png" class="img-fluid"
+                            alt="image-1">
                         <div class="blog-content">
                             <h4>Tablet Hardness Testers</h4>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna</p>
                             <div class="date-n-button">
                                 <span>
                                     <p><i class="fa-regular fa-calendar"></i> 23 May 2024</p>
@@ -452,10 +476,12 @@
 
                 <div class="col-md-4">
                     <div class="card-blog blog-animation-3">
-                        <img src="<?php echo base_url() ?>assets/images/Bitmap/Bitmap.png" class="img-fluid" alt="image-1">
+                        <img src="<?php echo base_url() ?>assets/images/Bitmap/Bitmap.png" class="img-fluid"
+                            alt="image-1">
                         <div class="blog-content">
                             <h4>Tablet Hardness Testers</h4>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna</p>
                             <div class="date-n-button">
                                 <span>
                                     <p><i class="fa-regular fa-calendar"></i> 23 May 2024</p>
@@ -479,7 +505,8 @@
                 <div class="row">
                     <div class="col-md-3 element-to-animate-3">
                         <div class="Resources-card-1">
-                            <img src="<?php echo base_url() ?>assets/images/resource/resource-img-4.png" class="img-fluid" alt="img-1">
+                            <img src="<?php echo base_url() ?>assets/images/resource/resource-img-4.png"
+                                class="img-fluid" alt="img-1">
                             <div class="card-content">
                                 <p>user</p>
                                 <h4>Guides</h4>
@@ -489,7 +516,8 @@
                     </div>
                     <div class="col-md-3 element-to-animate-2">
                         <div class="Resources-card-2 text-center">
-                            <img src="<?php echo base_url() ?>assets/images/resource/resource_img_2.png" class="img-fluid" alt="img-1">
+                            <img src="<?php echo base_url() ?>assets/images/resource/resource_img_2.png"
+                                class="img-fluid" alt="img-1">
                             <div class="card-content bg-color-1 text-left">
                                 <p>Technical</p>
                                 <h4>Notes</h4>
@@ -503,7 +531,8 @@
                                 <h4><span class="black">Videos &</span><br> Webinars</h4>
                                 <button class="second-card-button">Technical Notes</button>
                             </div>
-                            <img src="<?php echo base_url() ?>assets/images/resource/resource-img-5.png" class="img-fluid" alt="img-1">
+                            <img src="<?php echo base_url() ?>assets/images/resource/resource-img-5.png"
+                                class="img-fluid" alt="img-1">
                         </div>
                     </div>
                 </div>
@@ -517,7 +546,8 @@
     <section class="panel  background-color-3">
         <div class="container-learn-more">
             <h1>Ready To Learn More?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dicta tempore! Debitis, iure quia optio deserunt,</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dicta tempore! Debitis, iure quia optio
+                deserunt,</p>
             <div class="container-cards">
                 <div class="row">
                     <div class="col-md-4">
@@ -539,7 +569,8 @@
                     </div>
                     <div class="col-md-4">
                         <div class="inner-cards text-center card-color-3 element-card-3">
-                            <img class="image-learn-more" src="<?php echo base_url() ?>assets/images/connect-images/icon-3.png" alt="img-1">
+                            <img class="image-learn-more"
+                                src="<?php echo base_url() ?>assets/images/connect-images/icon-3.png" alt="img-1">
                             <button class="btn-position-2">
                                 Request a Quote
                             </button>
@@ -672,7 +703,7 @@
 <!-- Then include Owl Carousel script -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script>
-    $(".slider ol li").on("click", function() {
+    $(".slider ol li").on("click", function () {
         $(this).addClass("active").siblings("li").removeClass("active");
         $(".slider ul").animate({
             top: -$(".slider").height() * $(this).index()
