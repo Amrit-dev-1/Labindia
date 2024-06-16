@@ -1,4 +1,4 @@
-<div class="firstContainer-new ">
+<!-- <div class="firstContainer-new ">
     <div class="wrapper">
         <div class="content-wrap">
             <section class="section hero"></section>
@@ -9,124 +9,188 @@
             <img src="<?php echo base_url() ?>assets/images/loader/landing-png.png" alt="image">
         </div>
     </div>
-</div>
+</div> -->
 
 
 
 <?php $this->load->view('labindia_view/layout/head_view.php'); ?>
 
-<div class="firstContainer text-left " id="content">
-    <div class="content">
-        <h6>ANALYTICAL PRODUCTS </h6>
-        <h5>FAT ANALYZER</h5>
-        <h2>LABSOX PRO</h2>
-        <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis reiciendis officia reprehenderit
-            inventore tenetur natus! Veniam expedita quasi quis eos. Ipsum,</p>
-        <div class="inner-content">
-            <button>
-                Know More
-            </button>
-            <a href="#">www.thisismail@mail.com</a><br>
-            <div class="social">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div>
-    </div>
-
-    <div class="first-sidebar d-flex">
-        <div class="inner-sidebar">
-
-            <h4> <i class="fa-brands fa-youtube"></i> Webinars</h4>
-
-        </div>
-    </div>
-
-</div>
-
 
 <div class="custom-container">
 
-    <div class="description panel ">
-        <div class="container-fluid container-introduction">
-            <div class="row num-container">
-                <div class="col-md-3">
-                    <div class="intro_logo">
-                        <img src="<?php echo base_url() ?>assets/images/introduction/image.png" alt="">
-                    </div>
-                </div>
-                <div class="col-md-9">
-                    <div class="num-counter d-flex">
-                        <div class="counter">
-                            <div class="num">
-                                <h3 class="count" data-target="40">0+</h3>
-                                <span>Years of experience</span>
-                            </div>
-                        </div>
-                        <div class="counter">
-                            <div class="num">
-                                <h3 class="count" data-target="500">0+</h3>
-                                <span>Professionals</span>
-                            </div>
-                        </div>
-                        <div class="counter">
-                            <div class="num">
-                                <h3 class="count" data-target="6000">0+</h3>
-                                <span>Satisfied clients</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row background-color-3">
-                <div class="col-md-6">
-                    <div class="intro-img">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-1.png"
-                            class="img-fluid icon" alt="icon1">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-2.png"
-                            class="img-fluid icon" alt="icon2">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-3.png"
-                            class="img-fluid icon" alt="icon3">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-4.png"
-                            class="img-fluid icon" alt="icon4">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-5.png"
-                            class="img-fluid icon" alt="icon5">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-6.png"
-                            class="img-fluid icon" alt="icon6">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-7.png"
-                            class="img-fluid icon" alt="icon7">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-8.png"
-                            class="img-fluid icon" alt="icon8">
-                        <img src="<?php echo base_url() ?>assets/images/Hero-Banner_1/Group-9.png"
-                            class="img-fluid icon" alt="icon8">
 
+    <!-- panle 1 start -->
+
+    <section class="panel background-color-3">
+        <div class="introduction-container">
+            <div class="row">
+                <div class="col-md-8 element-to-animate-1">
+                    <div class="conatiner_video" id="videoContainer">
+                        <video controls data-aos="fade-right" data-aos-duration="3000">
+                            <!-- <source src="<?php echo base_url() ?>assets/images/video/home-section-video.mp4" type="video/mp4"> -->
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="hero-content " id="heroContent" data-aos="fade-up" data-aos-duration="3000">
+                            <h3>Welcome To </h3>
+                            <h1><span>LABINDIA</span> Analytical</h1>
+                            <p>With over 40 years of industry expertise and a team of 500+ professionals, Labindia Analytical is your trusted partner for cutting-edge analytical solutions. Compliant with international standards, we serve 6,000+ clients and 15,000+ customers nationwide through our 12 offices across India.</p>
+                        </div>
+                    </div>
+                    <div class="copyright element-to-animate-1">
+                        <p>© Copyright 2024. All Rights Reserved.</p>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="introduction-content">
-                        <span>Introduction</span>
-                        <p>Here is a little about us</p>
-                        <div class="overlap">
-                            <h1>LABINDIA</h1>
-                            <h2>Analytical</h2>
-                            <div class="innertext d-flex">
-                                <p>Instruments</p>
-                                <span class="year">1981</span>
-                            </div>
-                            <a class="intro-btn">Know More</a>
+                <div class="col-md-4">
+                    <div class="container-number element-to-animate-1" id="containerNumber" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="num">
+                            <h2>40+</h2>
+                            <p>Year of Experience</p>
+                        </div>
+                        <div class="num">
+                            <h2>500+</h2>
+                            <p>Professionals</p>
+                        </div>
+                        <div class="num">
+                            <h2>6000+</h2>
+                            <p>Satisfied Clients</p>
+                        </div>
+                    </div>
+                    <div class="social-btn text-center element-to-animate-1">
+                        <button>Explore Product</button>
+                        <div class="social-icon d-flex" id="socialIcons">
+                            <a href="#" id="social-icon-1" class="social-link">
+                                <img src="<?php echo base_url() ?>assets/images/social-icon/Icon-1.svg" alt="">
+                            </a>
+                            <a href="#" id="social-icon-2" class="social-link">
+                                <img src="<?php echo base_url() ?>assets/images/social-icon/Icon-2.svg" alt="">
+                            </a>
+                            <a href="#" id="social-icon-3" class="social-link">
+                                <img src="<?php echo base_url() ?>assets/images/social-icon/Icon-3.svg" alt="">
+                            </a>
+                            <a href="#" id="social-icon-4" class="social-link">
+                                <img src="<?php echo base_url() ?>assets/images/social-icon/Icon-4.svg" alt="">
+                            </a>
+                            <a href="#" id="social-icon-5" class="social-link">
+                                <img src="<?php echo base_url() ?>assets/images/social-icon/Icon-5.svg" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
+    <!-- panle 1 end -->
+
+    <!-- recommeneded product start -->
+
+    <section class="panel background-color-3">
+
+        <main>
+            <div>
+
+                <h1>Recommend Product</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dicta iure provident labore neque, natus voluptates aperiam facere dolorem</p>
+                <a href="#">View More</a>
+            </div>
+            <div class="swiper">
+                <!-- <div class="swiper-wrapper">
+
+                    <div class="swiper-slide ">
+                        <div class="card-style">
+                            <div class="product-img">
+                            <img src="<?php echo base_url() ?>assets/images/product/product-1.png" alt="">
+                            </div>
+
+                            <h2>Product Title </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" target="_blank">View More</a>
+                        </div>
+                    </div>
+
+                </div> -->
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide--one">
+                        <div class="card-style">
+                            <div class="product-img">
+                                <img src="<?php echo base_url() ?>assets/images/product/product-1.png" alt="">
+                            </div>
+
+                            <h2>Product Title </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" target="_blank">View More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide--two">
+                        <div class="card-style">
+                            <div class="product-img">
+                                <img src="<?php echo base_url() ?>assets/images/product/product-2.png" alt="">
+                            </div>
+
+                            <h2>Product Title </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" target="_blank">View More</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide swiper-slide--three">
+
+                        <div class="card-style">
+                            <div class="product-img">
+                                <img src="<?php echo base_url() ?>assets/images/product/product-3.png" alt="">
+                            </div>
+
+                            <h2>Product Title </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" target="_blank">View More</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide swiper-slide--four">
+
+                        <div class="card-style">
+                            <div class="product-img">
+                                <img src="<?php echo base_url() ?>assets/images/product/product-4.png" alt="">
+                            </div>
+
+                            <h2>Product Title </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" target="_blank">View More</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide swiper-slide--five">
+
+                    <div class="card-style">
+                            <div class="product-img">
+                                <img src="<?php echo base_url() ?>assets/images/product/product-5.png" alt="">
+                            </div>
+
+                            <h2>Product Title </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" target="_blank">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <img src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png" alt="" class="bg">
+            <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" class="bg2">
+        </main>
+
+
+
+    </section>
+
+    <!-- recommedede product end  -->
 
     <!-- 2nd panel start -->
 
-    <div class="panel background-color-3">
+    <!-- <div class="panel background-color-3">
         <div class="testimonial-content element-to-animate-3">
             <h3>Recommend Product</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -217,13 +281,13 @@
                 </table>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- 2nd panel end -->
 
 
     <!-- Panel 3 -->
-    <div class="panel panel-3  background-color-3">
+    <div class="panel panel-3  background-color-3" style="overflow-y: auto;">
         <div class="container-connect">
             <div class="row">
                 <div class="col-md-7">
@@ -235,8 +299,7 @@
                     </div>
                 </div>
                 <div class="connect-img ">
-                    <img src="<?php echo base_url() ?>assets/images/connect-img-white.png" class="img-fluid"
-                        alt="Connect Image">
+                    <img src="<?php echo base_url() ?>assets/images/connect-img-white.png" class="img-fluid" alt="Connect Image">
                     <div class="connect-btn d-flex ">
                         <p>Contact Us:</p>
                         <a href="#"><i class="fa-solid fa-phone"></i> +91 9136 9095 78</a>
@@ -258,66 +321,155 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="heading-new text-left mt-0 p-3">
-                        <h3 class="element-to-animate-3">What's New</h3>
-                        <p class="element-to-animate-3">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                        <h3 id="section-title" class="element-to-animate-3">What's New</h3>
+                        <p id="section-description" class="element-to-animate-3">“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                             diam nonumy eirmod tempor invidunt ut labore et dolore magna”</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="row mt-4">
-                        <div class="col-custom text-center element-to-animate-3">
-                            <button class="btn tab-button active" onclick="showCards(1)">Button 1</button>
-                            <button class="btn tab-button" onclick="showCards(2)">Button 2</button>
-                            <button class="btn tab-button" onclick="showCards(3)">Button 3</button>
+                        <div class="col-custom text-center ">
+                            <div class="news-tabs">
+                                <button id="tab-1" class="tab-button active" onclick="showSection(1)">Blogs</button>
+                                <button id="tab-2" class="tab-button" onclick="showSection(2)">Resources</button>
+                                <button id="tab-3" class="tab-button" onclick="showSection(3)">Learn More</button>
+                                <!-- Add more buttons as needed -->
+                            </div>
+
+
+
                         </div>
+
+
                     </div>
                 </div>
             </div>
-            <div class="news-cards">
-                <div class="container element-to-animate-3">
-                    <div class="row mt-0 card-container" id="card-container">
-                        <div class="col-12 col-md-4 card-content card-1 ">
-                            <div class="card-custom">
-                                <div class="card-inner">
-                                    <img src="assets/images/news/news1-1.png" class=" img-fluid" alt="">
-                                    <div class="card-body">
-                                        <span>Category Name | Date</span>
-                                        <h5 class="card-title">Headline for the</h5>
-                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+            <div class="news-sections">
+                <div class="news-section" id="section-1">
+                    <!-- Content for section 1 -->
+                    <div class="container-blog">
+                        <div class="row mt-0 card-container" id="card-container">
+
+                            <div class="col-12 col-md-4 card-content card-1">
+                                <div class="card-custom">
+                                    <div class="card-inner">
+                                        <img src="assets/images/news/news1-1.png" class="img-fluid" alt="">
+                                        <div class="card-body">
+                                            <span>Category Name | Date</span>
+                                            <h5 class="card-title">Headline for the</h5>
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-4 card-content card-1 ">
-                            <div class="card-custom">
-                                <div class="card-inner">
-                                    <img src="assets/images/news/news1-1.png" class=" img-fluid" alt="">
-                                    <div class="card-body">
-                                        <span>Category Name | Date</span>
-                                        <h5 class="card-title">Headline for the</h5>
-                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+                            <div class="col-12 col-md-4 card-content card-2">
+                                <div class="card-custom">
+                                    <div class="card-inner">
+                                        <img src="assets/images/news/news1-1.png" class="img-fluid" alt="">
+                                        <div class="card-body">
+                                            <span>Category Name | Date</span>
+                                            <h5 class="card-title">Headline for the</h5>
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-4 card-content card-1 ">
-                            <div class="card-custom">
-                                <div class="card-inner">
-                                    <img src="assets/images/news/news1-1.png" class=" img-fluid" alt="">
-                                    <div class="card-body">
-                                        <span>Category Name | Date</span>
-                                        <h5 class="card-title">Headline for the</h5>
-                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+                            <div class="col-12 col-md-4 card-content card-3">
+                                <div class="card-custom">
+                                    <div class="card-inner">
+                                        <img src="assets/images/news/news1-1.png" class="img-fluid" alt="">
+                                        <div class="card-body">
+                                            <span>Category Name | Date</span>
+                                            <h5 class="card-title">Headline for the</h5>
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Add more card content as needed -->
                         </div>
-                        <!-- Add more card content as needed -->
                     </div>
                 </div>
+                <div class="news-section" id="section-2" style="display: none;">
+                    <div class="Resources">
+                        <!-- <h1>Resources</h1> -->
+                        <div class="Resources-card-container">
+                            <div class="row">
+                                <div class="col-md-3 element-to-animate-3">
+                                    <div class="Resources-card-1">
+                                        <img src="<?php echo base_url() ?>assets/images/resource/resource-img-4.png" class="img-fluid" alt="img-1">
+                                        <div class="card-content">
+                                            <p>user</p>
+                                            <h4>Guides</h4>
+                                            <button>User Guides</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 element-to-animate-2">
+                                    <div class="Resources-card-2 text-center">
+                                        <img src="<?php echo base_url() ?>assets/images/resource/resource_img_2.png" class="img-fluid" alt="img-1">
+                                        <div class="card-content bg-color-1 text-left">
+                                            <p>Technical</p>
+                                            <h4>Notes</h4>
+                                            <button class="second-card-button">Technical Notes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 element-to-animate-2">
+                                    <div class="Resources-card-3 text-center d-flex">
+                                        <div class="card-content custom-position bg-color-1 text-left">
+                                            <h4><span class="black">Videos &</span><br> Webinars</h4>
+                                            <button class="second-card-button">Technical Notes</button>
+                                        </div>
+                                        <img src="<?php echo base_url() ?>assets/images/resource/resource-img-5.png" class="img-fluid" alt="img-1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-section" id="section-3" style="display: none;">
+                    <div class="container-learn-more">
+                        <!-- <h1>Ready To Learn More?</h1> -->
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dicta tempore! Debitis, iure quia optio
+                            deserunt,</p> -->
+                        <div class="container-cards">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="inner-cards text-center card-color-1 element-card-1">
+                                        <img src="<?php echo base_url() ?>assets/images/connect-images/icon-2.png" alt="img-1">
+
+                                        <button>
+                                            Free Trail
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="inner-cards text-center card-color-2 element-card-2">
+                                        <img src="<?php echo base_url() ?>assets/images/connect-images/icon-1.png" alt="img-1">
+                                        <button class="btn-position-1">
+                                            Speak to a Scientist
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="inner-cards text-center card-color-3 element-card-3">
+                                        <img class="image-learn-more" src="<?php echo base_url() ?>assets/images/connect-images/icon-3.png" alt="img-1">
+                                        <button class="btn-position-2">
+                                            Request a Quote
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more sections as needed -->
             </div>
         </div>
     </section>
+
 
     <!-- panel 4 end  -->
 
@@ -373,7 +525,7 @@
                         </div>
                         <p class="customer-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum laudantium illum sed quibusdam quam numquam, nam aut assumenda veritatis sit, debitis dolor modi obcaecati quia autem dignissimos eligendi. Omnis.</p>
                     </div>
-                    
+
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
@@ -398,27 +550,19 @@
 
                 <div class="form-inputs">
                     <form action="POST">
-                        <input type="text" id="fname" name="firstname" class="custom-input element-to-animate"
-                            placeholder="Your first name..">
+                        <input type="text" id="fname" name="firstname" class="custom-input element-to-animate" placeholder="Your first name..">
 
-                        <input type="email" id="email" name="email" class="custom-input element-to-animate"
-                            placeholder="Your email..">
+                        <input type="email" id="email" name="email" class="custom-input element-to-animate" placeholder="Your email..">
 
-                        <input type="tel" id="phone" name="phone" class="custom-input element-to-animate"
-                            placeholder="Your phone number..">
+                        <input type="tel" id="phone" name="phone" class="custom-input element-to-animate" placeholder="Your phone number..">
 
-                        <input type="text" id="city" name="city" class="custom-input element-to-animate"
-                            placeholder="Your city..">
+                        <input type="text" id="city" name="city" class="custom-input element-to-animate" placeholder="Your city..">
 
-                        <input type="text" id="purchase" name="purchase" class="custom-input element-to-animate"
-                            placeholder="When are you planning to purchase">
+                        <input type="text" id="purchase" name="purchase" class="custom-input element-to-animate" placeholder="When are you planning to purchase">
 
-                        <input type="date" id="application" name="application" class="custom-input element-to-animate"
-                            placeholder="Application">
+                        <input type="date" id="application" name="application" class="custom-input element-to-animate" placeholder="Application">
 
-                        <textarea id="requirements" name="requirements" rows="4" cols="50"
-                            class="custom-input element-to-animate"
-                            placeholder="Please elaborate your requirement"></textarea>
+                        <textarea id="requirements" name="requirements" rows="4" cols="50" class="custom-input element-to-animate" placeholder="Please elaborate your requirement"></textarea>
 
                         <div class="check-box d-flex">
                             <input type="checkbox" id="agree" name="agree">
@@ -432,156 +576,6 @@
     </section>
 
     <!-- panel 5 end -->
-
-    <!-- panel 6 start -->
-    <section class="panel blue-background">
-        <div class="container-blog text-center">
-            <h1>Inspiration <span>Highlights</span></h1>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card-blog blog-animation-1">
-                        <img src="<?php echo base_url() ?>assets/images/Bitmap/Bitmap.png" class="img-fluid"
-                            alt="image-1">
-                        <div class="blog-content">
-                            <h4>Tablet Hardness Testers</h4>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore et dolore magna</p>
-                            <div class="date-n-button">
-                                <span>
-                                    <p><i class="fa-regular fa-calendar"></i> 23 May 2024</p>
-                                </span>
-                                <button class="blog-read-btn">Read more </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card-blog blog-animation-2">
-                        <img src="<?php echo base_url() ?>assets/images/Bitmap/Bitmap.png" class="img-fluid"
-                            alt="image-1">
-                        <div class="blog-content">
-                            <h4>Tablet Hardness Testers</h4>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore et dolore magna</p>
-                            <div class="date-n-button">
-                                <span>
-                                    <p><i class="fa-regular fa-calendar"></i> 23 May 2024</p>
-                                </span>
-                                <button class="blog-read-btn">Read more </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card-blog blog-animation-3">
-                        <img src="<?php echo base_url() ?>assets/images/Bitmap/Bitmap.png" class="img-fluid"
-                            alt="image-1">
-                        <div class="blog-content">
-                            <h4>Tablet Hardness Testers</h4>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore et dolore magna</p>
-                            <div class="date-n-button">
-                                <span>
-                                    <p><i class="fa-regular fa-calendar"></i> 23 May 2024</p>
-                                </span>
-                                <button class="blog-read-btn">Read more </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- panel 6 end -->
-
-    <!-- panel 7 start -->
-
-    <section class="panel background-color-3">
-        <div class="Resources">
-            <h1>Resources</h1>
-            <div class="Resources-card-container">
-                <div class="row">
-                    <div class="col-md-3 element-to-animate-3">
-                        <div class="Resources-card-1">
-                            <img src="<?php echo base_url() ?>assets/images/resource/resource-img-4.png"
-                                class="img-fluid" alt="img-1">
-                            <div class="card-content">
-                                <p>user</p>
-                                <h4>Guides</h4>
-                                <button>User Guides</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 element-to-animate-2">
-                        <div class="Resources-card-2 text-center">
-                            <img src="<?php echo base_url() ?>assets/images/resource/resource_img_2.png"
-                                class="img-fluid" alt="img-1">
-                            <div class="card-content bg-color-1 text-left">
-                                <p>Technical</p>
-                                <h4>Notes</h4>
-                                <button class="second-card-button">Technical Notes</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 element-to-animate-2">
-                        <div class="Resources-card-3 text-center d-flex">
-                            <div class="card-content custom-position bg-color-1 text-left">
-                                <h4><span class="black">Videos &</span><br> Webinars</h4>
-                                <button class="second-card-button">Technical Notes</button>
-                            </div>
-                            <img src="<?php echo base_url() ?>assets/images/resource/resource-img-5.png"
-                                class="img-fluid" alt="img-1">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- panel 7 end -->
-
-    <!-- panel 8 start -->
-    <section class="panel  background-color-3">
-        <div class="container-learn-more">
-            <h1>Ready To Learn More?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dicta tempore! Debitis, iure quia optio
-                deserunt,</p>
-            <div class="container-cards">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="inner-cards text-center card-color-1 element-card-1">
-                            <img src="<?php echo base_url() ?>assets/images/connect-images/icon-2.png" alt="img-1">
-
-                            <button>
-                                Free Trail
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="inner-cards text-center card-color-2 element-card-2">
-                            <img src="<?php echo base_url() ?>assets/images/connect-images/icon-1.png" alt="img-1">
-                            <button class="btn-position-1">
-                                Speak to a Scientist
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="inner-cards text-center card-color-3 element-card-3">
-                            <img class="image-learn-more"
-                                src="<?php echo base_url() ?>assets/images/connect-images/icon-3.png" alt="img-1">
-                            <button class="btn-position-2">
-                                Request a Quote
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- panel 8 end -->
-
 
 
 </div>
@@ -703,7 +697,7 @@
 <!-- Then include Owl Carousel script -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script>
-    $(".slider ol li").on("click", function () {
+    $(".slider ol li").on("click", function() {
         $(this).addClass("active").siblings("li").removeClass("active");
         $(".slider ul").animate({
             top: -$(".slider").height() * $(this).index()

@@ -63,6 +63,7 @@ a:hover {
 	height: 100vh;
 	display: flex;
 	flex-wrap: nowrap;
+	background-color:#050a30 ;	
 }
 
 .container-introduction {
@@ -434,12 +435,10 @@ a {
 }
 
 .container-connect {
-	/* border: 1px solid white; */
-	margin: 0% auto;
 	height: 100%;
 	width: 70%;
 	padding: 20px;
-	height: 60%;
+	height: 50%;
 }
 
 .content-text h2 span {
@@ -448,7 +447,7 @@ a {
 }
 
 .content-text h2 {
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid white;
 	padding: 15px 0px;
 	font-weight: 400;
 	font-size: 2.5rem;
@@ -471,11 +470,14 @@ a {
 	font-size: 1.4rem;
 }
 
+
 .connect-img img {
-	position: absolute;
-	height: auto;
-	width: 90%;
-	transform: translate(-14%, -70%);
+    position: absolute;
+    height: auto;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -45%);
 }
 
 .connect-icon {
@@ -553,15 +555,16 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-top: -5% !important;
+	/* margin-top: -5% !important; */
+	max-width: 1000px;
+	margin: auto;
 }
-
 .news-cards {
 	width: 100%;
 	height: 100%;
 	/* margin-top: -30px; */
 	max-width: 1000px;
-	margin: auto;
+	margin: 60px auto;
 }
 
 .heading-new h3 {
@@ -623,6 +626,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+	padding: 15px;
 }
 
 .card-inner .card-body span,
@@ -725,7 +729,7 @@ a {
 .Resources {
 	height: 60%;
 	width: 80%;
-	margin: 30px auto;
+	margin: 0 auto;
 }
 
 .Resources h1 {
@@ -905,8 +909,8 @@ a {
 }
 
 .card-color-3 {
-    background-color: white;
-    border: 1px solid white;
+	background-color: white;
+	border: 1px solid white;
 }
 
 .image-learn-more {
@@ -926,13 +930,13 @@ a {
 	color: white;
 }
 
-.element-card-1,
+/* .element-card-1,
 .element-card-2,
 .element-card-3 {
 	opacity: 0;
 	transform: translateY(50px);
 	transition: opacity 0.5s, transform 0.5s;
-}
+} */
 
 .brand-container {
 	width: 100%;
@@ -1301,7 +1305,7 @@ main {
 }
 
 .background-color-3 {
-	background-color: #00184b;
+	background-color: #050a30;
 }
 
 .product-btn:hover {
@@ -1552,49 +1556,6 @@ ol {
 	/* Adjust for spacing */
 }
 
-.element-to-animate-3 {
-	opacity: 0;
-	transform: translateX(100px);
-	/* Start from right */
-}
-
-/* .element-to-animate {
-	opacity: 0;
-	transform: translateX(100%);
-} */
-
-.hidden {
-	opacity: 0;
-	transform: translateY(20px);
-	transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.visible {
-	opacity: 1;
-	transform: translateY(0);
-}
-
-.news-cards {
-	opacity: 0;
-	transform: translateY(50px);
-	/* Move the cards down slightly for a smoother appearance */
-	transition: opacity 1s, transform 1s;
-	/* Add transition for opacity and transform */
-}
-
-.news-cards.show {
-	opacity: 1;
-	transform: translateY(0);
-	/* Reset the transform */
-}
-
-/* 
-.element-to-animate-5 {
-
-	opacity: 0; 
-	transform: translateY(50px);
-  } */
-
 .connect-btn a {
 	color: #00184b;
 	font-weight: 600;
@@ -1713,13 +1674,13 @@ i.fa-brands.fa-youtube {
 /* Slder */
 
 .container-client {
-    display: flex;
-    width: 80%;
-    height: 80%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    overflow: hidden;
-    margin-top: 30px;
+	display: flex;
+	width: 80%;
+	height: 80%;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 30px;
 }
 
 .content-card {
@@ -1756,55 +1717,141 @@ i.fa-brands.fa-youtube {
 	color: transparent;
 }
 
-.swiper-container {
-	width: 60%;
-	height: 100%;
-	overflow: hidden;
-}
 
-.swiper-slide {
-    text-align: left;
-    font-size: 18px;
-    background: #fff;
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    height: 50% !important;
-    width: 80%;
-    background-color: #EEF7FF;
-    margin: 20% auto;
-    border-radius: 10px;
-    color: black;
-    padding: 10px 40px;
-}
 
-.swiper-pagination-bullet {
-	background: #4caf50;
-}
-
-.swiper-pagination-bullet-active {
-	background: #388e3c;
-}
-
-.name-detail h4{
-	color:#063970;
+.name-detail h4 {
+	color: #063970;
 	font-weight: 600;
 	margin: 0;
 }
 .name-detail span {
-    color: black;
-    font-weight: 700;
-    font-size: 15px;
+	color: black;
+	font-weight: 700;
+	font-size: 15px;
 }
 
 .name-detail {
-    padding: 0;
-    border-bottom: 1px solid black;
-    padding: 10px 0px;
+	padding: 0;
+	border-bottom: 1px solid black;
+	padding: 10px 0px;
 }
 
 .customer-detail {
-    font-size: 15px;
-    margin-top: 10px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.panel-section {
+	display: none; /* Initially hide all sections */
+}
+
+.panel-section.active {
+	display: block; /* Show active section */
+	/* Add any other styling/animations here */
+}
+
+.Blog-section {
+	max-width: 1000;
+}
+
+.container-blog {
+	max-width: 1000;
+	margin: auto;
+}
+
+.conatiner_video video {
+	width: 700px;
+	height: auto;
+}
+
+.conatiner_video video {
+	width: 100%;
+	height: 250px;
+	position: relative;
+	top: -50px;
+	left: 50px;
+}
+
+.hero-content {
+	color: white;
+	padding: 0px 50px;
+	margin-top: -25px;
+}
+
+.hero-content h3 {
+	font-size: 2.2rem;
+	-webkit-text-stroke: 1px white;
+	text-stroke: 1px white;
+	color: transparent;
+}
+
+.hero-content h1 {
+	font-size: 2.8rem;
+}
+
+.hero-content h1 span {
+	font-size: 3.2rem;
+	font-weight: 700;
+}
+
+.container-number {
+	text-align: right;
+	padding: 30px 30%;
+	margin-top: -60px;
+	text-align: right;
+}
+
+.num h2 {
+	color: white;
+	font-size: 3.2rem;
+	font-weight: 700;
+}
+
+.num p {
+	color: white;
+	font-size: 1rem;
+}
+
+.social-btn button {
+	border: none;
+	border-radius: 10px;
+	padding: 10px 10px;
+	background-color: #15193c;
+	color: white;
+	transition: 0.3s ease-in-out;
+}
+
+.social-btn button:hover {
+	background-color: #eb4a4a;
+	color: white;
+}
+
+.conatiner_video {
+	padding: 0px 50px;
+}
+
+.copyright p {
+	color: white;
+	margin-left: 12%;
+}
+
+.hero-content p {
+	font-size: 0.9rem;
+}
+
+.social-icon {
+	padding: 20px;
+	width: 90%;
+    margin: 10px auto;
+}
+
+.social-icon a {
+	text-align: center;
+	height: auto;
+	width: 100px;
+}
+
+.introduction-container {
+	position: relative;
+	top: 50px;
 }
