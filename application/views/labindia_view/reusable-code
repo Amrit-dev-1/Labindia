@@ -641,3 +641,212 @@
         Copyright &copy; LabIndia
     </div>
 </div>
+
+    <!-- <div class="swiper-container mySwiper" id="swiper-container">
+                <div class="swiper-wrapper element-to-animate-3 ">
+
+                    <div class="swiper-slide">
+                        <div class="name-detail">
+                            <h4>Cia Rodriguez</h4>
+                            <span>5 Hours</span>
+                        </div>
+                        <p class="customer-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum laudantium illum sed quibusdam quam numquam, nam aut assumenda veritatis sit, debitis dolor modi obcaecati quia autem dignissimos eligendi. Omnis.</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="name-detail">
+                            <h4>Cia Rodriguez</h4>
+                            <span>5 Hours</span>
+                        </div>
+                        <p class="customer-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum laudantium illum sed quibusdam quam numquam, nam aut assumenda veritatis sit, debitis dolor modi obcaecati quia autem dignissimos eligendi. Omnis.</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="name-detail">
+                            <h4>Cia Rodriguez</h4>
+                            <span>5 Hours</span>
+                        </div>
+                        <p class="customer-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum laudantium illum sed quibusdam quam numquam, nam aut assumenda veritatis sit, debitis dolor modi obcaecati quia autem dignissimos eligendi. Omnis.</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="name-detail">
+                            <h4>Cia Rodriguez</h4>
+                            <span>5 Hours</span>
+                        </div>
+                        <p class="customer-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum laudantium illum sed quibusdam quam numquam, nam aut assumenda veritatis sit, debitis dolor modi obcaecati quia autem dignissimos eligendi. Omnis.</p>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="name-detail">
+                            <h4>Cia Rodriguez</h4>
+                            <span>5 Hours</span>
+                        </div>
+                        <p class="customer-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum laudantium illum sed quibusdam quam numquam, nam aut assumenda veritatis sit, debitis dolor modi obcaecati quia autem dignissimos eligendi. Omnis.</p>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div> -->
+
+
+
+
+            <!-- connect section -->
+
+
+
+            <div class="container-motion background-color-3">
+
+    <div class="section">
+        <div class="container-connect">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="content-text element-to-animate-3">
+                        <h2>We Are <span>Always Open</span> <br> To Your Needs!</h2>
+                        <p>“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna”</p>
+                        <button>Connect Now</button>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <!-- <img src="<?php echo base_url() ?>assets/images/white-line.png" alt=""> -->
+                    <div class="connect-img ">
+                        <img src="<?php echo base_url() ?>assets/images/Contact-us/Circular_img_1.png" class="img-fluid" alt="Connect Image">
+                        <!-- <div class="connect-btn d-flex ">
+                            <p>Contact Us:</p>
+                            <a href="#"><i class="fa-solid fa-phone"></i> +91 9136 9095 78</a>
+                            <div class="connect-email">
+                                <a href="#">sales.mfd@labindia.com</a>
+                            </div>
+                        </div> -->
+                        <!-- <div class="snake"></div> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- <div class="wave-tube">
+                <svg viewBox="100 0 600 400" xmlns="http://www.w3.org/2000/svg" class="wave">
+                    <path id="wavePath1" d="M50 50 Q50 150 150 150 Q250 150 250 250 Q250 350 350 350 Q450 350 450 250 Q450 150 550 150 Q650 150 650 50" />
+                </svg>
+                <div class="ball"></div>
+            </div> -->
+
+    </div>
+
+    <div class="container-snake-wave">
+
+
+        <div class="section-2">
+            <div class="container-head-office text-white">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>
+                            Head <span class="decor">Office</span>
+                            <div class="row font-connect">
+                                <div class="col-1 text-center">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur necessitatibus labore cumque aliquam reiciendis aspernatur deleniti expedita corrupti ex tempore totam quasi nesciunt ullam magni, veritatis nemo iure adipisci recusandae?
+                                    </p>
+                                </div>
+
+                                <div class="col-1">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="col-11">
+                                    <a href="#">+91-022-6908 6000/6110 </a><br>
+                                    <a href="#">+91-022-6908 6000/6110 </a>
+                                    <a href="#">+91-987654321 </a>
+                                </div>
+                            </div>
+
+                            <a class="text-white mail" href="#"><i class="fa-solid fa-envelope"></i>
+                                dummymain@gmail.xom
+                            </a>
+                        </h1>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section-3">
+            <div class="container-fluid text-white">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="office-center ">
+                            <h4>Factory</h4>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Plot No. EL-72, Electronic Zone, TTC Industrial Area, Thane Belapur Road, Navi Mumbai, Maharashtra, India 400705.</p>
+                                </div>
+                                <div class="col-1">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="col-11">
+                                    <a href="#">+91-022-61076666 </a><br>
+                                    <a href="#">sales.mfd@labindia.com</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="office-center ">
+                            <h4>Upcoming Factory</h4>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Plot No. EL-72, Electronic Zone, TTC Industrial Area, Thane Belapur Road, Navi Mumbai, Maharashtra, India 400705.</p>
+                                </div>
+                                <div class="col-1">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="col-11">
+                                    <a href="#">+91-022-61076666 </a><br>
+                                    <a href="#">sales.mfd@labindia.com</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="office-center ">
+                            <h4>Application & Training Centre</h4>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Plot No. EL-72, Electronic Zone, TTC Industrial Area, Thane Belapur Road, Navi Mumbai, Maharashtra, India 400705.</p>
+                                </div>
+                                <div class="col-1">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="col-11">
+                                    <a href="#">+91-022-61076666 </a><br>
+                                    <a href="#">sales.mfd@labindia.com</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

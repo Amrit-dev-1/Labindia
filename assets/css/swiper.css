@@ -1,230 +1,89 @@
-main {
-	position: relative;
-	width: calc(min(90rem, 90%));
-	margin: 0 auto;
-	min-height: 100vh;
-	column-gap: 3rem;
-	padding-block: min(20vh, 3rem);
-}
-
-.bg {
-	position: fixed;
-	top: -4rem;
-	left: -12rem;
-	z-index: -1;
-	opacity: 0;
-}
-
-.bg2 {
-	position: fixed;
-	bottom: -2rem;
-	right: -3rem;
-	z-index: -1;
-	width: 9.375rem;
-	opacity: 0;
-}
-
-main > div span {
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
-	font-size: 1rem;
-	color: #717171;
-}
-
-main > div h1 {
-	text-transform: capitalize;
-	letter-spacing: 0.8px;
-	font-weight: 900;
-	font-size: clamp(3.4375rem, 3.25rem + 0.75vw, 4rem);
-	background-color: #005baa;
-	background-image: linear-gradient(45deg, #053b6a, #ffffff);
-	background-size: 100%;
-	background-repeat: repeat;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-moz-background-clip: text;
-	-moz-text-fill-color: transparent;
-}
-
-main > div hr {
-	display: block;
-	background: #005baa;
-	height: 0.25rem;
-	width: 6.25rem;
-	border: none;
-	margin: 1.125rem 0 1.875rem 0;
-}
-
-main > div p {
-	line-height: 1.6;
-	color: white;
-}
-
-main a {
-	display: inline-block;
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #717171;
-	font-weight: 500;
-	background: #fff;
-	border-radius: 3.125rem;
-	transition: 0.3s ease-in-out;
-}
-
-main > div > a {
-	border: 2px solid #c2c2c2;
-	margin-top: 2.188rem;
-	padding: 0.625rem 1.875rem;
-}
-
-main > div > a:hover {
-	border: 0.125rem solid #005baa;
-	color: #005baa;
-}
-
-.swiper {
+.swiper-container {
 	width: 100%;
-	padding-top: 3.125rem;
-}
-
-.swiper-pagination-bullet,
-.swiper-pagination-bullet-active {
-	background: #fff;
-}
-
-.swiper-pagination {
-	bottom: 1.25rem !important;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 12%;
 }
 
 .swiper-slide {
-	width: 18.75rem;
-	height: 28.125rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: end;
-	align-items: self-start;
+	background-position: center;
+	background-size: cover;
+	width: 280px !important;
+	background-color: #fff;
+	overflow: hidden;
+	border-radius: 25px;
 }
 
-.swiper-slide h2 {
-	color: #fff;
-	font-weight: 400;
-	font-size: 1.4rem;
-	line-height: 1.4;
-	margin-bottom: 0.625rem;
-	padding: 0 0 0 1.563rem;
-	text-transform: uppercase;
+.swiper-slide {
+	flex-shrink: 0;
+	width: auto;
+	height: auto !important;
+	position: relative;
+	transition-property: transform;
+	display: block;
+	margin: auto;
 }
 
-.swiper-slide p {
-	color: #dadada;
-	font-weight: 300;
-	padding: 0 1.563rem;
-	line-height: 1.6;
-	font-size: 1rem;
-	display: -webkit-box;
-	-webkit-line-clamp: 4;
-	-webkit-box-orient: vertical;
+.picture {
+	width: 320px;
+	height: 320px;
 	overflow: hidden;
 }
 
-.swiper-slide a {
-	margin: 1.25rem 1.563rem 3.438rem 1.563rem;
-	padding: 0.438em 1.875rem;
-	font-size: 0.9rem;
-}
-
-.swiper-slide a:hover {
-	color: #005baa;
-}
-
-.swiper-slide div {
-	display: none;
-	opacity: 0.5;
-	padding-bottom: 0.625rem;
-}
-
-.swiper-slide-active div {
-  display: block;
-  opacity: 1;
-  background: linear-gradient(45deg, #274572, transparent);
-}
-
-.product-img img {
-	height: auto;
+.picture img {
+	display: block;
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
-.swiper-slide--one {
-  /* background: linear-gradient(to top, #ffffff, #ffffff00, #ffffff00), no-repeat 50% 50% / cover; */
-  border-radius: 30px;
-  /* background-color: #f5f5f540; */
-  background: linear-gradient(45deg, #274572, transparent);
+.detail {
+	padding: 25px 5px;
+	font-weight: 600;
+	text-align: center;
+	height: auto;
 }
 
-.swiper-slide--two {
-  /* background: linear-gradient(to top, #ffffff, #ffffff00, #ffffff00), no-repeat 50% 50% / cover; */
-  border-radius: 30px;
-  /* background-color: #f5f5f540; */
-  background: linear-gradient(45deg, #274572, transparent);
-
+.detail h3 {
+	margin: 21px 0;
 }
 
-.swiper-slide--three {
-   /* background: linear-gradient(to top, #ffffff, #ffffff00, #ffffff00), no-repeat 50% 50% / cover; */
-   border-radius: 30px;
-   /* background-color: #f5f5f540; */
-   background: linear-gradient(45deg, #274572, transparent);
-
+.detail span {
+	display: block;
+	font-size: 16px;
+	color: #f44336;
 }
 
-.swiper-slide--four {
-    /* background: linear-gradient(to top, #ffffff, #ffffff00, #ffffff00), no-repeat 50% 50% / cover; */
-    border-radius: 30px;
-    /* background-color: #f5f5f540; */
-    background: linear-gradient(45deg, #274572, transparent);
-
+.swiper-3d {
+	perspective: 500px !important;
 }
 
-.swiper-slide--five {
-  /* background: linear-gradient(to top, #ffffff, #ffffff00, #ffffff00), no-repeat 50% 50% / cover; */
-  border-radius: 30px;
-  /* background-color: #f5f5f540; */
-  background: linear-gradient(45deg, #274572, transparent);
+.Recommened-product {
+	color: #fff;
+	margin: 25px 60px;
 }
 
-.swiper-3d .swiper-slide-shadow-left,
-.swiper-3d .swiper-slide-shadow-right {
-	background-image: none;
+.swiper-wrapper {
+	height: 70% !important;
 }
 
-@media screen and (min-width: 48rem) {
-	main {
-		display: flex;
-		align-items: center;
-	}
-	.bg,
-	.bg2 {
-		opacity: 0.1;
-	}
+.swiper-pagination {
+	position: absolute;
+	transform: translateY(50px);
 }
 
-@media screen and (min-width: 93.75rem) {
-	.swiper {
-		width: 85%;
-	}
-}
+.swiper-container {
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+  }
+  
+  .swiper-slide {
+	width: auto; /* Ensure slides take up auto width for responsive design */
+	max-width: 30%; /* Ensure slides don't exceed 20% of the container width if you have 5 slides */
+	box-sizing: border-box;
+  }
+  
 
-.card-style {
-  /* border: 1px solid white; */
-  /* box-shadow: 0 14px 28px rgb(255 255 255 / 81%), 0 10px 10px rgb(255 255 255 / 22%); */
-  border-radius: 20px;
-  height: 100%;
-}
-
-.swiper-slide-inactive {
-  opacity: 0.5;
-}
-
-
-
-
+  
+  

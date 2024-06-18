@@ -1,4 +1,4 @@
-<!-- <div class="firstContainer-new ">
+<div class="firstContainer-new ">
     <div class="wrapper">
         <div class="content-wrap">
             <section class="section hero"></section>
@@ -9,7 +9,7 @@
             <img src="<?php echo base_url() ?>assets/images/loader/landing-png.png" alt="image">
         </div>
     </div>
-</div> -->
+</div>
 
 
 
@@ -24,14 +24,16 @@
     <section class="panel background-color-3">
         <div class="introduction-container">
             <div class="row">
+                <!-- Main Content Section -->
                 <div class="col-md-8 element-to-animate-1">
-                    <div class="conatiner_video" id="videoContainer">
-                        <video controls data-aos="fade-right" data-aos-duration="3000">
-                            <!-- <source src="<?php echo base_url() ?>assets/images/video/home-section-video.mp4" type="video/mp4"> -->
+                    <div class="container_video" id="videoContainer">
+                        <video controls>
+                            <!-- Uncomment the line below and provide a valid video source -->
+                            <source src="<?php echo base_url() ?>assets/images/video/home-section-video.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
-                        <div class="hero-content " id="heroContent" data-aos="fade-up" data-aos-duration="3000">
-                            <h3>Welcome To </h3>
+                        <div class="hero-content" id="heroContent" data-aos="fade-up" data-aos-duration="3000">
+                            <h3>Welcome To</h3>
                             <h1><span>LABINDIA</span> Analytical</h1>
                             <p>With over 40 years of industry expertise and a team of 500+ professionals, Labindia Analytical is your trusted partner for cutting-edge analytical solutions. Compliant with international standards, we serve 6,000+ clients and 15,000+ customers nationwide through our 12 offices across India.</p>
                         </div>
@@ -40,11 +42,13 @@
                         <p>© Copyright 2024. All Rights Reserved.</p>
                     </div>
                 </div>
+
+                <!-- Statistics and Social Section -->
                 <div class="col-md-4">
                     <div class="container-number element-to-animate-1" id="containerNumber" data-aos="fade-left" data-aos-duration="2000">
                         <div class="num">
                             <h2>40+</h2>
-                            <p>Year of Experience</p>
+                            <p>Years of Experience</p>
                         </div>
                         <div class="num">
                             <h2>500+</h2>
@@ -57,237 +61,164 @@
                     </div>
                     <div class="social-btn text-center element-to-animate-1">
                         <button>Explore Product</button>
-                        <div class="social-icon d-flex" id="socialIcons">
+                        <div class="social-icon d-flex justify-content-center" id="socialIcons">
                             <a href="#" id="social-icon-1" class="social-link">
-                                <img src="<?php echo base_url() ?>assets/images/social-icon/Icon-1.svg" alt="">
+                                <img src="<?php echo base_url() ?>assets/images/social-icon/Icon-1.svg" alt="Social Icon 1">
                             </a>
                             <a href="#" id="social-icon-2" class="social-link">
-                                <img src="<?php echo base_url() ?>assets/images/social-icon/Icon-2.svg" alt="">
+                                <img src="<?php echo base_url() ?>assets/images/social-icon/Icon-2.svg" alt="Social Icon 2">
                             </a>
                             <a href="#" id="social-icon-3" class="social-link">
-                                <img src="<?php echo base_url() ?>assets/images/social-icon/Icon-3.svg" alt="">
+                                <img src="<?php echo base_url() ?>assets/images/social-icon/Icon-3.svg" alt="Social Icon 3">
                             </a>
                             <a href="#" id="social-icon-4" class="social-link">
-                                <img src="<?php echo base_url() ?>assets/images/social-icon/Icon-4.svg" alt="">
+                                <img src="<?php echo base_url() ?>assets/images/social-icon/Icon-4.svg" alt="Social Icon 4">
                             </a>
                             <a href="#" id="social-icon-5" class="social-link">
-                                <img src="<?php echo base_url() ?>assets/images/social-icon/Icon-5.svg" alt="">
+                                <img src="<?php echo base_url() ?>assets/images/social-icon/Icon-5.svg" alt="Social Icon 5">
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
 
     <!-- panle 1 end -->
 
-    <!-- recommeneded product start -->
+
+    <!-- 2nd panel start -->
 
     <section class="panel background-color-3">
 
-        <main>
-            <div>
-
-                <h1>Recommend Product</h1>
-                <hr>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dicta iure provident labore neque, natus voluptates aperiam facere dolorem</p>
-                <a href="#">View More</a>
+        <div class="container-product">
+            <div class="Recommened-product ">
+                <h1>Recommened Products</h1>
+                <p>(Quick-view)</p>
             </div>
-            <div class="swiper">
-                <!-- <div class="swiper-wrapper">
+            <!-- Slider main container -->
 
-                    <div class="swiper-slide ">
-                        <div class="card-style">
-                            <div class="product-img">
-                            <img src="<?php echo base_url() ?>assets/images/product/product-1.png" alt="">
-                            </div>
+            <div class="swiper-container">
 
-                            <h2>Product Title </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#" target="_blank">View More</a>
-                        </div>
-                    </div>
-
-                </div> -->
-
+                <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide swiper-slide--one">
-                        <div class="card-style">
-                            <div class="product-img">
-                                <img src="<?php echo base_url() ?>assets/images/product/product-1.png" alt="">
-                            </div>
+                    <!-- Slides -->
+                    <div class="swiper-slide">
 
-                            <h2>Product Title </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#" target="_blank">View More</a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide swiper-slide--two">
-                        <div class="card-style">
-                            <div class="product-img">
-                                <img src="<?php echo base_url() ?>assets/images/product/product-2.png" alt="">
+                        <div class="detail product-card-color-1">
+                            <div class="img-container">
+                                <img src="<?php echo base_url() ?>assets/images/product/product-1.png" class="img-fluid" alt="">
                             </div>
-
-                            <h2>Product Title </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#" target="_blank">View More</a>
+                            <h3>Marie Edwards</h3>
+                            <a class="product-btn know-more-btn" data-product-id="1">Know More</a>
                         </div>
+
+
                     </div>
 
-                    <div class="swiper-slide swiper-slide--three">
+                    <div class="swiper-slide">
 
-                        <div class="card-style">
-                            <div class="product-img">
-                                <img src="<?php echo base_url() ?>assets/images/product/product-3.png" alt="">
+                        <div class="detail product-card-color-1">
+                            <div class="img-container">
+                                <img src="<?php echo base_url() ?>assets/images/product/product-1.png" class="img-fluid" alt="">
                             </div>
-
-                            <h2>Product Title </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#" target="_blank">View More</a>
+                            <h3>Marie Edwards</h3>
+                            <a class="product-btn know-more-btn" data-product-id="1">Know More</a>
                         </div>
+
+
                     </div>
 
-                    <div class="swiper-slide swiper-slide--four">
+                    <div class="swiper-slide">
 
-                        <div class="card-style">
-                            <div class="product-img">
-                                <img src="<?php echo base_url() ?>assets/images/product/product-4.png" alt="">
+                        <div class="detail product-card-color-1">
+                            <div class="img-container">
+                                <img src="<?php echo base_url() ?>assets/images/product/product-2.png" class="img-fluid" alt="">
                             </div>
-
-                            <h2>Product Title </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#" target="_blank">View More</a>
+                            <h3>Kelly Woods</h3>
+                            <a class="product-btn know-more-btn" data-product-id="1">Know More</a>
                         </div>
                     </div>
 
-                    <div class="swiper-slide swiper-slide--five">
+                    <div class="swiper-slide">
 
-                    <div class="card-style">
-                            <div class="product-img">
-                                <img src="<?php echo base_url() ?>assets/images/product/product-5.png" alt="">
+                        <div class="detail product-card-color-2 text-white ">
+                            <div class="img-container">
+                                <img src="<?php echo base_url() ?>assets/images/product/product-3.png" class="img-fluid" alt="">
                             </div>
-
-                            <h2>Product Title </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            <a href="#" target="_blank">View More</a>
+                            <h3>Roger Rice</h3>
+                            <a class="product-btn know-more-btn" data-product-id="1">Know More</a>
                         </div>
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <div class="detail product-card-color-2 text-white">
+                            <div class="img-container">
+                                <img src="<?php echo base_url() ?>assets/images/product/product-4.png" class="img-fluid" alt="">
+                            </div>
+                            <h3>Jessica Garcia</h3>
+                            <a class="product-btn know-more-btn" data-product-id="1">Know More</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <div class="detail product-card-color-1">
+                            <div class="img-container">
+                                <img src="<?php echo base_url() ?>assets/images/product/product-5.png" class="img-fluid" alt="">
+                            </div>
+                            <h3>Sean Adams</h3>
+                            <a class="product-btn know-more-btn" data-product-id="1">Know More</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <!--     <div class="swiper-button-prev"></div> -->
+                <!--     <div class="swiper-button-next"></div> -->
+
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+        </div>
+        <div id="sidebar">
+            <button id="close-btn">&times;</button>
+            <div id="sidebar-content">
+                <!-- Dummy Content Start -->
+                <div class="sidebar-header">
+                    <h2>Product Details</h2>
+                </div>
+                <div class="sidebar-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit urna at justo viverra, at vulputate massa egestas.</p>
+                    <h3>Features:</h3>
+                    <ul class="features-list">
+                        <li>Feature 1: High-quality material</li>
+                        <li>Feature 2: Sleek and modern design</li>
+                        <li>Feature 3: Affordable price</li>
+                        <li>Feature 4: Excellent customer reviews</li>
+                    </ul>
+                    <div class="sidebar-footer">
+                        <button class="buy-now-btn">Buy Now</button>
                     </div>
                 </div>
-
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
+                <!-- Dummy Content End -->
             </div>
-            <img src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png" alt="" class="bg">
-            <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" class="bg2">
-        </main>
-
+        </div>
 
 
     </section>
 
-    <!-- recommedede product end  -->
-
-    <!-- 2nd panel start -->
-
-    <!-- <div class="panel background-color-3">
-        <div class="testimonial-content element-to-animate-3">
-            <h3>Recommend Product</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="container-testimonial">
-            <section class="cards-blog">
-                <div class="card-testimonial card-color-1">
-
-                    <div class="product-card-inner text-center element-to-animate-3">
-                        <img src="assets/images/product/product-1.png" alt="">
-                        <div class="content-position">
-                            <h4 class="product-detail">Soxhlet Fat Analyzer</h4>
-                            <button class="product-btn">Know More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-testimonial card-color-2 element-to-animate-3">
-                    <div class="product-card-inner text-center">
-                        <img src="assets/images/product/product-2.png" alt="">
-                        <div class="content-position">
-                            <h4 class="product-detail">Soxhlet Fat Analyzer</h4>
-                            <button class="product-btn">Know More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-testimonial card-color-3 element-to-animate-3">
-                    <div class="product-card-inner text-center">
-                        <img src="assets/images/product/product-3.png" alt="">
-                        <div class="content-position">
-                            <h4 class="product-detail">Soxhlet Fat Analyzer</h4>
-                            <button class="product-btn">Know More</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="sidebar">
-            <button class="close-btn">&times;</button>
-            <h2 class="sidebar-title">Product Details</h2>
-
-            <div class="product-detail">
-                <h3 class="product-name">Product Name: SuperWidget 3000</h3>
-                <p class="product-description"><strong>Description:</strong> The SuperWidget 3000 is the latest
-                    innovation in widget technology, providing unparalleled performance and versatility for all your
-                    widget needs.</p>
-
-                <p class="product-price"><strong>Price:</strong> $299.99</p>
-
-                <h4 class="features-title">Features:</h4>
-                <ul class="features-list">
-                    <li>High-speed processing</li>
-                    <li>Advanced AI integration</li>
-                    <li>Compact and lightweight design</li>
-                    <li>Extended battery life</li>
-                    <li>Multi-device compatibility</li>
-                </ul>
-
-                <h4 class="specifications-title">Specifications:</h4>
-                <table class="specifications-table">
-                    <tr>
-                        <th>Specification</th>
-                        <th>Details</th>
-                    </tr>
-                    <tr>
-                        <td>Processor</td>
-                        <td>Quad-core 3.2 GHz</td>
-                    </tr>
-                    <tr>
-                        <td>RAM</td>
-                        <td>8GB DDR4</td>
-                    </tr>
-                    <tr>
-                        <td>Storage</td>
-                        <td>256GB SSD</td>
-                    </tr>
-                    <tr>
-                        <td>Battery Life</td>
-                        <td>Up to 12 hours</td>
-                    </tr>
-                    <tr>
-                        <td>Weight</td>
-                        <td>1.2 lbs</td>
-                    </tr>
-                    <tr>
-                        <td>Dimensions</td>
-                        <td>10" x 6" x 0.5"</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </div> -->
 
     <!-- 2nd panel end -->
 
 
     <!-- Panel 3 -->
-    <div class="panel panel-3  background-color-3" style="overflow-y: auto;">
+    <!-- <div class="panel panel-3  background-color-3">
         <div class="container-connect">
             <div class="row">
                 <div class="col-md-7">
@@ -310,7 +241,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- 3rd panel end  -->
 
@@ -476,68 +407,14 @@
     <!-- addtional Panel start -->
 
 
-    <section class="panel background-color-3 ">
-        <div class="container-client">
-            <div class="content-card text-white blog-animation-1">
-                <h2>What Our Client Say</h2>
-                <p>Discover what our client have to say about their experience with</p>
-                <h1>LabINDIA<br> ANALYTICAL</h1>
-            </div>
-            <div class="swiper-container mySwiper" id="swiper-container">
-                <div class="swiper-wrapper element-to-animate-3 ">
-
-                    <div class="swiper-slide">
-                        <div class="name-detail">
-                            <h4>Cia Rodriguez</h4>
-                            <span>5 Hours</span>
-                        </div>
-                        <p class="customer-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum laudantium illum sed quibusdam quam numquam, nam aut assumenda veritatis sit, debitis dolor modi obcaecati quia autem dignissimos eligendi. Omnis.</p>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="name-detail">
-                            <h4>Cia Rodriguez</h4>
-                            <span>5 Hours</span>
-                        </div>
-                        <p class="customer-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum laudantium illum sed quibusdam quam numquam, nam aut assumenda veritatis sit, debitis dolor modi obcaecati quia autem dignissimos eligendi. Omnis.</p>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="name-detail">
-                            <h4>Cia Rodriguez</h4>
-                            <span>5 Hours</span>
-                        </div>
-                        <p class="customer-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum laudantium illum sed quibusdam quam numquam, nam aut assumenda veritatis sit, debitis dolor modi obcaecati quia autem dignissimos eligendi. Omnis.</p>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="name-detail">
-                            <h4>Cia Rodriguez</h4>
-                            <span>5 Hours</span>
-                        </div>
-                        <p class="customer-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum laudantium illum sed quibusdam quam numquam, nam aut assumenda veritatis sit, debitis dolor modi obcaecati quia autem dignissimos eligendi. Omnis.</p>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="name-detail">
-                            <h4>Cia Rodriguez</h4>
-                            <span>5 Hours</span>
-                        </div>
-                        <p class="customer-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum laudantium illum sed quibusdam quam numquam, nam aut assumenda veritatis sit, debitis dolor modi obcaecati quia autem dignissimos eligendi. Omnis.</p>
-                    </div>
-
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
-    </section>
+    <!-- s -->
 
 
     <!-- addtional Panel end -->
 
     <!-- panel 5 start -->
 
-    <section class="panel panel-5 background-color-3">
+    <!-- <section class="panel panel-5 background-color-3">
         <div class="container-account">
             <div class="container-form element-to-animate-3">
                 <div class="form-heading">
@@ -573,13 +450,318 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- panel 5 end -->
 
 
 </div>
 
+<div class="container-motion background-color-3">
+    <div class="section-1">
+        <div class="container-connect">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="content-text element-to-animate-3">
+                        <h2>We Are <span>Always Open</span> <br> To Your Needs!</h2>
+                        <p>“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna”</p>
+                        <button>Connect Now</button>
+                    </div>
+                </div>
+                <!-- <div class="connect-img">
+                        <img src="<?php echo base_url() ?>assets/images/connect-img-white.png" class="img-fluid" alt="Circular Image of Contact Us">
+                    </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container-snake-wave">
+        <div class="section-2">
+            <div class="container-head-office text-white">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>Head <span class="decor">Office</span></h1>
+                        <div class="row font-connect">
+                            <div class="col-1 text-center">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="col-11">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur necessitatibus labore cumque aliquam reiciendis aspernatur deleniti expedita corrupti ex tempore totam quasi nesciunt ullam magni, veritatis nemo iure adipisci recusandae?</p>
+                            </div>
+                            <div class="col-1">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="col-11">
+                                <a href="tel:+9102269086000">+91-022-6908 6000/6110</a><br>
+                                <a href="tel:+91987654321">+91-987654321</a>
+                            </div>
+                        </div>
+                        <a class="text-white mail" href="mailto:dummymain@gmail.com"><i class="fa-solid fa-envelope"></i> dummymain@gmail.com</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="<?php echo base_url() ?>assets/images/Map_here.svg " class="map-location" alt="Head Office Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-3">
+            <div class="container-fluid text-white">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="office-center">
+                            <h4>Factory</h4>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Plot No. EL-72, Electronic Zone, TTC Industrial Area, Thane Belapur Road, Navi Mumbai, Maharashtra, India 400705.</p>
+                                </div>
+                                <div class="col-1">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="col-11">
+                                    <a href="tel:+9102261076666">+91-022-61076666</a><br>
+                                    <a href="mailto:sales.mfd@labindia.com">sales.mfd@labindia.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="office-center">
+                            <h4>Upcoming Factory</h4>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Plot No. EL-72, Electronic Zone, TTC Industrial Area, Thane Belapur Road, Navi Mumbai, Maharashtra, India 400705.</p>
+                                </div>
+                                <div class="col-1">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="col-11">
+                                    <a href="tel:+9102261076666">+91-022-61076666</a><br>
+                                    <a href="mailto:sales.mfd@labindia.com">sales.mfd@labindia.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="office-center">
+                            <h4>Application & Training Centre</h4>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="col-11">
+                                    <p>Plot No. EL-72, Electronic Zone, TTC Industrial Area, Thane Belapur Road, Navi Mumbai, Maharashtra, India 400705.</p>
+                                </div>
+                                <div class="col-1">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="col-11">
+                                    <a href="tel:+9102261076666">+91-022-61076666</a><br>
+                                    <a href="mailto:sales.mfd@labindia.com">sales.mfd@labindia.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-4">
+            <div class="location-tabs">
+                <button class="tab-button active">Domestic Offices</button>
+                <button class="tab-button">International Partners</button>
+                <!-- Add more buttons as needed -->
+            </div>
+            <div class="conatiner text-white mt-4">
+                <div class="row">
+
+                    <div class="col-md-3 p-4">
+                        <div class="domestic-office-detail">
+                            <div class="location-detail d-flex">
+                                <span>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </span>
+
+                                <h4>Lucknow</h4>
+                            </div>
+                            <div class="contact-detail d-flex mt-2">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 p-4">
+                        <div class="domestic-office-detail">
+                            <div class="location-detail d-flex">
+                                <span>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </span>
+
+                                <h4>Hyderabad</h4>
+                            </div>
+                            <div class="contact-detail d-flex mt-2">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 p-4">
+                        <div class="domestic-office-detail">
+                            <div class="location-detail d-flex">
+                                <span>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </span>
+
+                                <h4>Vadodara</h4>
+                            </div>
+                            <div class="contact-detail d-flex mt-2">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 p-4">
+                        <div class="domestic-office-detail">
+                            <div class="location-detail d-flex">
+                                <span>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </span>
+
+                                <h4>Pune</h4>
+                            </div>
+                            <div class="contact-detail d-flex mt-2">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 p-4">
+                        <div class="domestic-office-detail">
+                            <div class="location-detail d-flex">
+                                <span>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </span>
+
+                                <h4>Delhi</h4>
+                            </div>
+                            <div class="contact-detail d-flex mt-2">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 p-4">
+                        <div class="domestic-office-detail">
+                            <div class="location-detail d-flex">
+                                <span>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </span>
+
+                                <h4>Chennai</h4>
+                            </div>
+                            <div class="contact-detail d-flex mt-2">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 p-4">
+                        <div class="domestic-office-detail">
+                            <div class="location-detail d-flex">
+                                <span>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </span>
+
+                                <h4>Kolkatta</h4>
+                            </div>
+                            <div class="contact-detail d-flex mt-2">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 p-4">
+                        <div class="domestic-office-detail">
+                            <div class="location-detail d-flex">
+                                <span>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </span>
+
+                                <h4>Bangalore</h4>
+                            </div>
+                            <div class="contact-detail d-flex mt-2">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="section-5">
+            <div class="container-account">
+                <div class="container-form element-to-animate-3">
+                    <div class="form-heading text-white">
+                        <h2>LET'S CONNECT</h2>
+                        <p>Have a question about any of our products? Fill out the form and our representatives will be in touch</p>
+                    </div>
+
+                    <div class="form-inputs">
+                        <form action="POST">
+                            <input type="text" id="fname" name="firstname" class="custom-input element-to-animate" placeholder="Your first name..">
+
+                            <input type="email" id="email" name="email" class="custom-input element-to-animate" placeholder="Your email..">
+
+                            <input type="tel" id="phone" name="phone" class="custom-input element-to-animate" placeholder="Your phone number..">
+
+                            <input type="text" id="city" name="city" class="custom-input element-to-animate" placeholder="Your city..">
+
+                            <input type="text" id="purchase" name="purchase" class="custom-input element-to-animate" placeholder="When are you planning to purchase">
+
+                            <input type="date" id="application" name="application" class="custom-input element-to-animate" placeholder="Application">
+
+                            <textarea id="requirements" name="requirements" rows="4" cols="50" class="custom-input element-to-animate" placeholder="Please elaborate your requirement"></textarea>
+
+                            <div class="check-box d-flex">
+                                <input type="checkbox" id="agree" name="agree">
+                                <span>I have read and agree to the privacy Policy | Or Sign In With</span>
+                                <button>Get Quote</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
 
 <!-- <div class="lastContainer">
     <div class="brand-container">
@@ -622,7 +804,7 @@
 
 </div> -->
 
-<div class="footer">
+<!-- <div class="footer">
     <div class="inner-footer">
 
         <div class="footer-items">
@@ -689,21 +871,10 @@
     <div class="footer-bottom">
         Copyright &copy; LabIndia
     </div>
-</div>
+</div> -->
 
 
-<!-- Include jQuery first -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!-- Then include Owl Carousel script -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script>
-    $(".slider ol li").on("click", function() {
-        $(this).addClass("active").siblings("li").removeClass("active");
-        $(".slider ul").animate({
-            top: -$(".slider").height() * $(this).index()
-        }, 500);
-    });
-</script>
+
 
 <?php
 

@@ -17,6 +17,7 @@ html,
 body {
 	overflow-x: hidden;
 	margin: 0;
+	background-color: #050A30;
 }
 
 a {
@@ -63,7 +64,7 @@ a:hover {
 	height: 100vh;
 	display: flex;
 	flex-wrap: nowrap;
-	background-color:#050a30 ;	
+	background-color: #050a30;
 }
 
 .container-introduction {
@@ -92,6 +93,7 @@ a:hover {
 	z-index: 14;
 	margin-bottom: 30%;
 }
+
 .lastContainer {
 	display: flex;
 	height: 40vh;
@@ -403,7 +405,6 @@ a {
 	border-radius: 14px;
 	padding: 7px 15px;
 	position: relative;
-	top: -100px;
 }
 
 .product-content {
@@ -428,17 +429,18 @@ a {
 }
 
 .content-text {
-	color: black;
-	padding: 15px 20px;
-	position: relative;
-	z-index: 10;
+    color: black;
+    padding: 15px 20px;
+    position: relative;
+    z-index: 10;
+    transform: translate(25%, 35%);
 }
 
 .container-connect {
-	height: 100%;
-	width: 70%;
-	padding: 20px;
-	height: 50%;
+    height: 100%;
+    width: 80%;
+    padding: 20px;
+    height: 55%;
 }
 
 .content-text h2 span {
@@ -472,12 +474,12 @@ a {
 
 
 .connect-img img {
-    position: absolute;
-    height: auto;
-    width: 90%;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -45%);
+	position: absolute;
+	height: auto;
+	width: 320px;
+	/* left: 60%; */
+	top: 0;
+	transform: translate(15%, 10%);
 }
 
 .connect-icon {
@@ -489,8 +491,7 @@ a {
 	margin: 0 20px;
 }
 
-.connect-btn a {
-}
+.connect-btn a {}
 
 .connect-btn {
 	position: relative;
@@ -559,6 +560,7 @@ a {
 	max-width: 1000px;
 	margin: auto;
 }
+
 .news-cards {
 	width: 100%;
 	height: 100%;
@@ -673,7 +675,7 @@ a {
 }
 
 .form-inputs {
-	width: 70%;
+    width: 75%;
 }
 
 .custom-input {
@@ -1116,7 +1118,6 @@ main {
 
 .Recommened-product {
 	position: absolute;
-	transform: translate(10px, -28vh);
 }
 
 .form-heading h2 {
@@ -1315,24 +1316,6 @@ main {
 	transition: 0.5s ease-in-out;
 }
 
-.sidebar {
-	position: fixed;
-	top: 0;
-	right: -470px;
-	width: 470px;
-	height: 100vh;
-	background-color: #808080cf;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	transition: right 0.3s ease;
-	overflow-y: auto;
-	z-index: 100;
-	padding: 20px;
-}
-
-.sidebar.open {
-	right: 0;
-	/* Bring sidebar into view */
-}
 
 .intro-img {
 	display: flex;
@@ -1724,6 +1707,7 @@ i.fa-brands.fa-youtube {
 	font-weight: 600;
 	margin: 0;
 }
+
 .name-detail span {
 	color: black;
 	font-weight: 700;
@@ -1742,11 +1726,13 @@ i.fa-brands.fa-youtube {
 }
 
 .panel-section {
-	display: none; /* Initially hide all sections */
+	display: none;
+	/* Initially hide all sections */
 }
 
 .panel-section.active {
-	display: block; /* Show active section */
+	display: block;
+	/* Show active section */
 	/* Add any other styling/animations here */
 }
 
@@ -1764,7 +1750,7 @@ i.fa-brands.fa-youtube {
 	height: auto;
 }
 
-.conatiner_video video {
+.container_video video {
 	width: 100%;
 	height: 250px;
 	position: relative;
@@ -1842,7 +1828,7 @@ i.fa-brands.fa-youtube {
 .social-icon {
 	padding: 20px;
 	width: 90%;
-    margin: 10px auto;
+	margin: 10px auto;
 }
 
 .social-icon a {
@@ -1853,5 +1839,336 @@ i.fa-brands.fa-youtube {
 
 .introduction-container {
 	position: relative;
-	top: 50px;
+	top: 15%;
+}
+
+.product-card-color-1 {
+	background-color: #96B7C8;
+}
+
+.product-card-color-2 {
+	background-color: #3E4044;
+}
+
+.swiper-container-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 60%;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	height: 330px;
+	margin-top: 10%;
+}
+
+.cards-container {
+	display: flex;
+	flex-direction: column;
+	transition: transform 0.3s ease-in-out;
+}
+
+.card {
+	min-height: 150px;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5em;
+}
+
+.nav-btn {
+	padding: 10px;
+	background: #007bff;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
+.nav-btn:disabled {
+	background: #ccc;
+	cursor: not-allowed;
+}
+
+/* Add this to your CSS file or within a <style> tag */
+#sidebar {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: -300px;
+	width: 500px;
+	height: 100%;
+	background-color: var(--bs-secondary-color);
+	box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+	transition: right 0.3s ease;
+	z-index: 1000;
+	transition: right 0.3s ease;
+}
+
+#sidebar.open {
+	right: 0;
+	/* Slide in from the right */
+}
+
+#close-btn {
+	background: none;
+	border: none;
+	font-size: 30px;
+	cursor: pointer;
+	position: absolute;
+	top: 20%;
+	right: 35px;
+	color: white;
+}
+
+
+#sidebar-content {
+	padding: 20px;
+	overflow-y: auto;
+	height: 100%;
+}
+
+/* Add this to your CSS file or within a <style> tag */
+.swiper-container {
+	transition: width 0.3s ease;
+	/* Smooth width transition */
+}
+
+.swiper-container.reduced-width {
+	width: 60%;
+}
+
+
+#sidebar-content {
+	padding: 20px;
+	overflow-y: auto;
+	height: 100%;
+}
+
+.sidebar-header {
+	margin-bottom: 20px;
+}
+
+.sidebar-header h2 {
+	margin: 0;
+	font-size: 24px;
+	color: #333;
+}
+
+.sidebar-body p {
+	margin: 0 0 20px;
+	color: #666;
+}
+
+.sidebar-body h3 {
+	margin: 0 0 10px;
+	font-size: 18px;
+	color: #333;
+}
+
+.features-list {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 20px;
+}
+
+.features-list li {
+	margin-bottom: 10px;
+	color: #666;
+}
+
+.sidebar-footer {
+	text-align: center;
+}
+
+.buy-now-btn {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.buy-now-btn:hover {
+	background-color: #0056b3;
+}
+
+
+
+
+.wave-tube {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.wave {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	fill: none;
+	stroke: #00aeef;
+	stroke-width: 20;
+}
+
+.ball {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: linear-gradient(135deg, #ff00ff, #00ffff);
+	border-radius: 50%;
+	box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.container-motion {
+	width: 100%;
+	padding: 0 40px;
+}
+
+.connect-img {
+	position: relative;
+	width: 100%;
+	height: auto;
+	/* overflow: hidden; */
+}
+
+.circular-image {
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+.snake {
+	position: absolute;
+	width: 20px;
+	height: 100px;
+	background-color: #f00;
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.decor {
+	font-weight: 700;
+}
+
+.font-connect {
+	font-size: 1rem;
+	margin: 30px 0;
+}
+
+
+.container-head-office h1 {
+	margin: 0 0;
+}
+
+.container-head-office {
+    padding: 0 70px;
+    position: absolute;
+    transform: translateY(40%);
+}
+.mail {
+	font-size: 1.5rem;
+}
+
+.section-2 {
+	height: 90vh;
+	padding: 0 40px;
+
+}
+
+.container-snake-wave {
+	padding: 0 40px;
+}
+
+.office-center h4 {
+	font-size: 2rem;
+	margin: 15px 30px;
+	border-bottom: 1px solid;
+	padding: 15px 0px;
+	height: 120px;
+}
+
+.container-snake-wave {
+	background-image: url(/Labindia3/assets/images/connect-img-2.png);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.office-center a {
+	color: white;
+}
+
+.office-center {
+	margin-bottom: 10px;
+}
+
+.office-center p {
+	font-size: 0.8rem;
+}
+
+.office-center a {
+	font-size: 0.8rem;
+}
+
+.location-tabs {
+	background-color: #103F94;
+	width: 37%;
+	margin: 40px auto;
+	border-radius: 10px;
+}
+
+.section-4 {
+    height: 65vh;
+    margin-top: 60px;
+}
+
+.section-5{
+	height: 90vh;
+}
+
+.location-detail i {
+	font-size: 1.1rem;
+	margin: 6px 10px;
+}
+
+.contact-detail i {
+	font-size: 1.1rem;
+	margin: 6px 10px;
+}
+
+.contact-detail p {
+	font-size: 0.8rem;
+}
+
+.map-location {
+    height: auto;
+    width: 75%;
+}
+
+.section-1 {
+    background-image: url(/labindia3/assets/images/connect-img-white.png);
+    background-position: left bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container-product{
+	height: 75%;
+	width: 100%;
 }
