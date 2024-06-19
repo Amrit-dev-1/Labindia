@@ -59,8 +59,9 @@
 }
 
 .Recommened-product {
-	color: #fff;
-	margin: 25px 60px;
+    color: #fff;
+    margin: 25px 60px;
+    transform: translateY(25%);
 }
 
 .swiper-wrapper {

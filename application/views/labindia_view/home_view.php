@@ -474,293 +474,241 @@
             </div>
         </div>
     </div>
-
     <div class="container-snake-wave">
-        <div class="section-2">
-            <div class="container-head-office text-white">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1>Head <span class="decor">Office</span></h1>
-                        <div class="row font-connect">
-                            <div class="col-1 text-center">
+    <div class="wave-tube">
+        <svg width="100%" height="100%" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" class="wave" >
+            <path id="wavePath1" d="M0 0 H300 Q400 0 400 100 V400" stroke="black" stroke-width="2" fill="none" />
+        </svg>
+        <div class="ball"></div>
+    </div>
+    <div class="section-2">
+        <div class="container-head-office text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Head <span class="decor">Office</span></h1>
+                    <div class="row font-connect">
+                        <div class="col-1 text-center">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="col-11">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur necessitatibus labore cumque aliquam reiciendis aspernatur deleniti expedita corrupti ex tempore totam quasi nesciunt ullam magni, veritatis nemo iure adipisci recusandae?</p>
+                        </div>
+                        <div class="col-1">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="col-11">
+                            <a href="tel:+9102269086000">+91-022-6908 6000/6110</a><br>
+                            <a href="tel:+91987654321">+91-987654321</a>
+                        </div>
+                    </div>
+                    <a class="text-white mail" href="mailto:dummymain@gmail.com"><i class="fa-solid fa-envelope"></i> dummymain@gmail.com</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="<?php echo base_url() ?>assets/images/Map_here.svg" class="map-location" alt="Head Office Image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-3">
+        <div class="container-fluid text-white">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="office-center">
+                        <h4>Factory</h4>
+                        <div class="row">
+                            <div class="col-1">
                                 <i class="fa-solid fa-location-dot"></i>
                             </div>
                             <div class="col-11">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur necessitatibus labore cumque aliquam reiciendis aspernatur deleniti expedita corrupti ex tempore totam quasi nesciunt ullam magni, veritatis nemo iure adipisci recusandae?</p>
+                                <p>Plot No. EL-72, Electronic Zone, TTC Industrial Area, Thane Belapur Road, Navi Mumbai, Maharashtra, India 400705.</p>
                             </div>
                             <div class="col-1">
                                 <i class="fa-solid fa-phone"></i>
                             </div>
                             <div class="col-11">
-                                <a href="tel:+9102269086000">+91-022-6908 6000/6110</a><br>
-                                <a href="tel:+91987654321">+91-987654321</a>
+                                <a href="tel:+9102261076666">+91-022-61076666</a><br>
+                                <a href="mailto:sales.mfd@labindia.com">sales.mfd@labindia.com</a>
                             </div>
                         </div>
-                        <a class="text-white mail" href="mailto:dummymain@gmail.com"><i class="fa-solid fa-envelope"></i> dummymain@gmail.com</a>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="<?php echo base_url() ?>assets/images/Map_here.svg " class="map-location" alt="Head Office Image">
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="section-3">
-            <div class="container-fluid text-white">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="office-center">
-                            <h4>Factory</h4>
-                            <div class="row">
-                                <div class="col-1">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </div>
-                                <div class="col-11">
-                                    <p>Plot No. EL-72, Electronic Zone, TTC Industrial Area, Thane Belapur Road, Navi Mumbai, Maharashtra, India 400705.</p>
-                                </div>
-                                <div class="col-1">
-                                    <i class="fa-solid fa-phone"></i>
-                                </div>
-                                <div class="col-11">
-                                    <a href="tel:+9102261076666">+91-022-61076666</a><br>
-                                    <a href="mailto:sales.mfd@labindia.com">sales.mfd@labindia.com</a>
-                                </div>
+                <div class="col-md-4">
+                    <div class="office-center">
+                        <h4>Upcoming Factory</h4>
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="col-11">
+                                <p>Plot No. EL-72, Electronic Zone, TTC Industrial Area, Thane Belapur Road, Navi Mumbai, Maharashtra, India 400705.</p>
+                            </div>
+                            <div class="col-1">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="col-11">
+                                <a href="tel:+9102261076666">+91-022-61076666</a><br>
+                                <a href="mailto:sales.mfd@labindia.com">sales.mfd@labindia.com</a>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-md-4">
-                        <div class="office-center">
-                            <h4>Upcoming Factory</h4>
-                            <div class="row">
-                                <div class="col-1">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </div>
-                                <div class="col-11">
-                                    <p>Plot No. EL-72, Electronic Zone, TTC Industrial Area, Thane Belapur Road, Navi Mumbai, Maharashtra, India 400705.</p>
-                                </div>
-                                <div class="col-1">
-                                    <i class="fa-solid fa-phone"></i>
-                                </div>
-                                <div class="col-11">
-                                    <a href="tel:+9102261076666">+91-022-61076666</a><br>
-                                    <a href="mailto:sales.mfd@labindia.com">sales.mfd@labindia.com</a>
-                                </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="office-center">
+                        <h4>Application & Training Centre</h4>
+                        <div class="row">
+                            <div class="col-1">
+                                <i class="fa-solid fa-location-dot"></i>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="office-center">
-                            <h4>Application & Training Centre</h4>
-                            <div class="row">
-                                <div class="col-1">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </div>
-                                <div class="col-11">
-                                    <p>Plot No. EL-72, Electronic Zone, TTC Industrial Area, Thane Belapur Road, Navi Mumbai, Maharashtra, India 400705.</p>
-                                </div>
-                                <div class="col-1">
-                                    <i class="fa-solid fa-phone"></i>
-                                </div>
-                                <div class="col-11">
-                                    <a href="tel:+9102261076666">+91-022-61076666</a><br>
-                                    <a href="mailto:sales.mfd@labindia.com">sales.mfd@labindia.com</a>
-                                </div>
+                            <div class="col-11">
+                                <p>Plot No. EL-72, Electronic Zone, TTC Industrial Area, Thane Belapur Road, Navi Mumbai, Maharashtra, India 400705.</p>
+                            </div>
+                            <div class="col-1">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="col-11">
+                                <a href="tel:+9102261076666">+91-022-61076666</a><br>
+                                <a href="mailto:sales.mfd@labindia.com">sales.mfd@labindia.com</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="section-4">
-            <div class="location-tabs">
-                <button class="tab-button active">Domestic Offices</button>
-                <button class="tab-button">International Partners</button>
-                <!-- Add more buttons as needed -->
-            </div>
-            <div class="conatiner text-white mt-4">
-                <div class="row">
-
-                    <div class="col-md-3 p-4">
-                        <div class="domestic-office-detail">
-                            <div class="location-detail d-flex">
-                                <span>
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </span>
-
-                                <h4>Lucknow</h4>
-                            </div>
-                            <div class="contact-detail d-flex mt-2">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-3 p-4">
-                        <div class="domestic-office-detail">
-                            <div class="location-detail d-flex">
-                                <span>
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </span>
-
-                                <h4>Hyderabad</h4>
-                            </div>
-                            <div class="contact-detail d-flex mt-2">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-3 p-4">
-                        <div class="domestic-office-detail">
-                            <div class="location-detail d-flex">
-                                <span>
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </span>
-
-                                <h4>Vadodara</h4>
-                            </div>
-                            <div class="contact-detail d-flex mt-2">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-3 p-4">
-                        <div class="domestic-office-detail">
-                            <div class="location-detail d-flex">
-                                <span>
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </span>
-
-                                <h4>Pune</h4>
-                            </div>
-                            <div class="contact-detail d-flex mt-2">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-3 p-4">
-                        <div class="domestic-office-detail">
-                            <div class="location-detail d-flex">
-                                <span>
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </span>
-
-                                <h4>Delhi</h4>
-                            </div>
-                            <div class="contact-detail d-flex mt-2">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-3 p-4">
-                        <div class="domestic-office-detail">
-                            <div class="location-detail d-flex">
-                                <span>
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </span>
-
-                                <h4>Chennai</h4>
-                            </div>
-                            <div class="contact-detail d-flex mt-2">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-3 p-4">
-                        <div class="domestic-office-detail">
-                            <div class="location-detail d-flex">
-                                <span>
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </span>
-
-                                <h4>Kolkatta</h4>
-                            </div>
-                            <div class="contact-detail d-flex mt-2">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-3 p-4">
-                        <div class="domestic-office-detail">
-                            <div class="location-detail d-flex">
-                                <span>
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </span>
-
-                                <h4>Bangalore</h4>
-                            </div>
-                            <div class="contact-detail d-flex mt-2">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-
-                </div>
-            </div>
-        </div>
-
-        <div class="section-5">
-            <div class="container-account">
-                <div class="container-form element-to-animate-3">
-                    <div class="form-heading text-white">
-                        <h2>LET'S CONNECT</h2>
-                        <p>Have a question about any of our products? Fill out the form and our representatives will be in touch</p>
-                    </div>
-
-                    <div class="form-inputs">
-                        <form action="POST">
-                            <input type="text" id="fname" name="firstname" class="custom-input element-to-animate" placeholder="Your first name..">
-
-                            <input type="email" id="email" name="email" class="custom-input element-to-animate" placeholder="Your email..">
-
-                            <input type="tel" id="phone" name="phone" class="custom-input element-to-animate" placeholder="Your phone number..">
-
-                            <input type="text" id="city" name="city" class="custom-input element-to-animate" placeholder="Your city..">
-
-                            <input type="text" id="purchase" name="purchase" class="custom-input element-to-animate" placeholder="When are you planning to purchase">
-
-                            <input type="date" id="application" name="application" class="custom-input element-to-animate" placeholder="Application">
-
-                            <textarea id="requirements" name="requirements" rows="4" cols="50" class="custom-input element-to-animate" placeholder="Please elaborate your requirement"></textarea>
-
-                            <div class="check-box d-flex">
-                                <input type="checkbox" id="agree" name="agree">
-                                <span>I have read and agree to the privacy Policy | Or Sign In With</span>
-                                <button>Get Quote</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </div>
+    <div class="section-4">
+        <div class="location-tabs">
+            <button class="tab-button active">Domestic Offices</button>
+            <button class="tab-button">International Partners</button>
+        </div>
+        <div class="container text-white mt-4">
+            <div class="row">
+                <div class="col-md-3 p-4">
+                    <div class="domestic-office-detail">
+                        <div class="location-detail d-flex">
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                            <h4>Lucknow</h4>
+                        </div>
+                        <div class="contact-detail d-flex mt-2">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-4">
+                    <div class="domestic-office-detail">
+                        <div class="location-detail d-flex">
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                            <h4>Hyderabad</h4>
+                        </div>
+                        <div class="contact-detail d-flex mt-2">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-4">
+                    <div class="domestic-office-detail">
+                        <div class="location-detail d-flex">
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                            <h4>Vadodara</h4>
+                        </div>
+                        <div class="contact-detail d-flex mt-2">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-4">
+                    <div class="domestic-office-detail">
+                        <div class="location-detail d-flex">
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                            <h4>Pune</h4>
+                        </div>
+                        <div class="contact-detail d-flex mt-2">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-4">
+                    <div class="domestic-office-detail">
+                        <div class="location-detail d-flex">
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                            <h4>Delhi</h4>
+                        </div>
+                        <div class="contact-detail d-flex mt-2">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-4">
+                    <div class="domestic-office-detail">
+                        <div class="location-detail d-flex">
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                            <h4>Chennai</h4>
+                        </div>
+                        <div class="contact-detail d-flex mt-2">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-4">
+                    <div class="domestic-office-detail">
+                        <div class="location-detail d-flex">
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                            <h4>Kolkatta</h4>
+                        </div>
+                        <div class="contact-detail d-flex mt-2">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-4">
+                    <div class="domestic-office-detail">
+                        <div class="location-detail d-flex">
+                            <span><i class="fa-solid fa-location-dot"></i></span>
+                            <h4>Bangalore</h4>
+                        </div>
+                        <div class="contact-detail d-flex mt-2">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-5">
+        <div class="container-account">
+            <div class="container-form element-to-animate-3">
+                <div class="form-heading text-white">
+                    <h2>LET'S CONNECT</h2>
+                    <p>Have a question about any of our products? Fill out the form and our representatives will be in touch</p>
+                </div>
+                <div class="form-inputs">
+                    <form action="POST">
+                        <input type="text" id="fname" name="firstname" class="custom-input element-to-animate" placeholder="Your first name..">
+                        <input type="email" id="email" name="email" class="custom-input element-to-animate" placeholder="Your email..">
+                        <input type="tel" id="phone" name="phone" class="custom-input element-to-animate" placeholder="Your phone number..">
+                        <input type="text" id="city" name="city" class="custom-input element-to-animate" placeholder="Your city..">
+                        <input type="text" id="purchase" name="purchase" class="custom-input element-to-animate" placeholder="When are you planning to purchase">
+                        <input type="date" id="application" name="application" class="custom-input element-to-animate" placeholder="Application">
+                        <textarea id="requirements" name="requirements" rows="4" cols="50" class="custom-input element-to-animate" placeholder="Please elaborate your requirement"></textarea>
+                        <div class="check-box d-flex">
+                            <input type="checkbox" id="agree" name="agree">
+                            <span>I have read and agree to the privacy Policy | Or Sign In With</span>
+                            <button>Get Quote</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </div>
 
 <!-- <div class="lastContainer">

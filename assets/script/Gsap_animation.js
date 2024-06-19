@@ -2,19 +2,19 @@ const sections = gsap.utils.toArray(".panel");
 
 // Horizontal scrolling animation
 const horizontalScroll = gsap.to(sections, {
-    xPercent: -100 * (sections.length - 1),
-    ease: "none",
-    scrollTrigger: {
-        trigger: ".custom-container",
-        pin: true,
-        scrub: 1,
-        snap: {
-            snapTo: 1 / (sections.length - 1), // Snap to the closest panel
-            duration: { min: 0.5, max: 1.5 }, // Increased duration range for the snap animation
-            ease: "power3.inOut" // Easing for the snap animation
-        },
-        end: () => "+=" + document.querySelector(".custom-container").offsetWidth,
+  xPercent: -100 * (sections.length - 1),
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".custom-container",
+    pin: true,
+    scrub: 1,
+    snap: {
+      snapTo: 1 / (sections.length - 1), // Snap to the closest panel
+      duration: { min: 0.5, max: 1.5 }, // Increased duration range for the snap animation
+      ease: "power1.inOut" // Easing for the snap animation
     },
+    end: () => "+=" + document.querySelector(".custom-container").offsetWidth,
+  },
 });
 
 
@@ -67,46 +67,46 @@ function createScrollAnimations() {
         scrub: true,
       },
     })
-    .to(ball, {
-      duration: 2, // Adjust duration for a slower transition
-      ease: "power1.inOut", // Smooth easing function
-      motionPath: {
-        path: wavePath,
-        align: wavePath,
-        alignOrigin: [0.5, 0.5],
-      },
-    });
+      .to(ball, {
+        duration: 2, // Adjust duration for a slower transition
+        ease: "power1.inOut", // Smooth easing function
+        motionPath: {
+          path: wavePath,
+          align: wavePath,
+          alignOrigin: [0.5, 0.5],
+        },
+      });
   });
 }
 
 // Initialize animations
 createScrollAnimations();
 
-   // Ensure GSAP is included in your project
+// Ensure GSAP is included in your project
 
-                // Define your animation using GSAP
-                gsap.to('.snake', {
-                  duration: 3, // Total duration of the animation in seconds
-                  ease: 'none', // Linear movement
-                  y: '-=100', // Move up by 100px
-                  onComplete: function() {
-                      gsap.to('.snake', {
-                          duration: 2, // Duration of the second part of the animation
-                          ease: 'power1.inOut', // Ease in and out
-                          x: '+=200', // Move right by 200px
-                          onComplete: function() {
-                              // Animation complete
-                              gsap.to('.snake', {
-                                  duration: 3, // Duration of the third part of the animation
-                                  ease: 'power1.inOut', // Ease in and out
-                                  y: '-=200', // Move up towards the circular image
-                                  x: '+=200', // Move right towards the circular image
-                                  onComplete: function() {
-                                      // Final animation complete
-                                      console.log('Animation complete');
-                                  }
-                              });
-                          }
-                      });
-                  }
-              });
+// Define your animation using GSAP
+gsap.to('.snake', {
+  duration: 3, // Total duration of the animation in seconds
+  ease: 'none', // Linear movement
+  y: '-=100', // Move up by 100px
+  onComplete: function () {
+    gsap.to('.snake', {
+      duration: 2, // Duration of the second part of the animation
+      ease: 'power1.inOut', // Ease in and out
+      x: '+=200', // Move right by 200px
+      onComplete: function () {
+        // Animation complete
+        gsap.to('.snake', {
+          duration: 3, // Duration of the third part of the animation
+          ease: 'power1.inOut', // Ease in and out
+          y: '-=200', // Move up towards the circular image
+          x: '+=200', // Move right towards the circular image
+          onComplete: function () {
+            // Final animation complete
+            console.log('Animation complete');
+          }
+        });
+      }
+    });
+  }
+});
