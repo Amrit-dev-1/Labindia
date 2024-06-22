@@ -163,7 +163,6 @@
         <div id="sidebar">
             <button id="close-btn">&times;</button>
             <div id="sidebar-content">
-                <!-- Dummy Content Start -->
                 <div class="sidebar-header">
                     <h2>Product Details</h2>
                 </div>
@@ -180,7 +179,6 @@
                         <button class="buy-now-btn">Buy Now</button>
                     </div>
                 </div>
-                <!-- Dummy Content End -->
             </div>
         </div>
     </section>
@@ -192,38 +190,52 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="container-client-say">
+                    <div class="container-client-say text-white">
                         <h1>
                             What our Client Say
                         </h1>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae deleniti dolorem dolores praesentium possimus impedit eum, quae sequi nisi!</p>
+                        <h3>
+                            LABINDIA
+                            ANALYTICAL
+                        </h3>
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <div class="slider-container-2">
-                        <div class="slider-2">
-                            <div class="slide-2 active">
-                                <h3>Cia Rodriguez</h3>
-                                <p>5 hours ago</p>
-                                <p>“I can confidently say that their products are top-notch. I have been using their UV-Visible Spectrophotometers for the past few years, and I have never been disappointed with its performance. The instruments are highly reliable, accurate, and efficient, which is essential for my work in the pharmaceutical industry.”</p>
+                    <div class="vertical-slider">
+                        <div class="slider-container-2">
+                            <div class="slider-2">
+                                <div class="slide-2 active">
+                                    <div class="container-title">
+                                        <h3>Cia Rodriguez</h3>
+                                        <span>5 hours ago</span>
+                                    </div>
+
+                                    <p>“I can confidently say that their products are top-notch. I have been using their UV-Visible Spectrophotometers for the past few years, and I have never been disappointed with its performance. The instruments are highly reliable, accurate, and efficient, which is essential for my work in the pharmaceutical industry.”</p>
+                                </div>
+                                <div class="slide-2">
+                                    <div class="container-title">
+                                        <h3>John Doe</h3>
+                                        <span>2 days ago</span>
+                                    </div>
+                                    <p>“The service and products provided by Labindia Analytical are exceptional. Their spectrophotometers have significantly improved our lab's efficiency.”</p>
+                                </div>
+                                <div class="slide-2">
+                                    <div class="container-title">
+                                        <h3>Jane Smith</h3>
+                                        <span>1 week ago</span>
+                                    </div>
+                                    <p>“Labindia Analytical has been a game-changer for our research. Their reliable and accurate instruments are exactly what we needed.”</p>
+                                </div>
                             </div>
-                            <div class="slide-2">
-                                <h3>John Doe</h3>
-                                <p>2 days ago</p>
-                                <p>“The service and products provided by Labindia Analytical are exceptional. Their spectrophotometers have significantly improved our lab's efficiency.”</p>
+                            <div class="nav-dots">
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
                             </div>
-                            <div class="slide-2">
-                                <h3>Jane Smith</h3>
-                                <p>1 week ago</p>
-                                <p>“Labindia Analytical has been a game-changer for our research. Their reliable and accurate instruments are exactly what we needed.”</p>
-                            </div>
-                        </div>
-                        <div class="nav-dots">
-                            <span class="dot active"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

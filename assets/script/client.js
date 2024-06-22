@@ -60,5 +60,5 @@ window.addEventListener("wheel", handleScroll);
 
 document.addEventListener("DOMContentLoaded", () => {
     showSlide(currentSlide);
-    setInterval(autoSlide, 9000); // Change slide every 3 seconds
+    setInterval(autoSlide, 100000); // Change slide every 3 seconds
 });
