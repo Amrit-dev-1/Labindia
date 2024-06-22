@@ -1,7 +1,18 @@
-.navbar {
-    background-color: #050A30;
-    height: 70px;
+/* General Styles */
+.navbar, .top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 11;
 }
+
+.navbar {
+    background-color: #070d3c;
+    height: 70px;
+    top: 44px; /* Adjusted to be under the top-bar */
+}
+
 .nav-item a {
     color: #FFF !important;
     margin: -6px 4px;
@@ -15,56 +26,42 @@
     border-bottom: 2px solid #FFF;
 }
 
+/* Header Icons and Logo */
+.header-icon, .header-search {
+    height: auto;
+}
+
 .header-icon {
     width: 30px;
-    height: auto;
 }
 
 .header-search {
     width: 27px;
-    height: auto;
 }
 
 .main-logo {
-    height: auto;
     width: 190px;
+    height: auto;
 }
 
+/* Background Image */
 .background-img {
-    background-image: url('/Labindia/assets/images/background-img/image.png');
-    background-color: #050A30 !important;
-    background-size: cover;
-    background-position: left bottom;
+    background: url('/Labindia/assets/images/background-img/image.png') left bottom / cover #050A30 !important;
+}
+
+/* Video Container */
+.video-container {
+    position: absolute;
 }
 
 .video-container video {
     margin: 20px 50px;
     width: auto;
-    border-radius: 10px;
     height: 65vh;
+    border-radius: 10px;
 }
 
-.video-container{
-    position: absolute;
-}
-
-.top-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index:11;
-}
-
-.navbar {
-    position: fixed;
-    top: 44px;
-    left: 0;
-    width: 100%;
-    z-index: 11;
-}
-
-
+/* Testimonial Section */
 .inner-testimonial-section {
     border: 1px solid black;
     background-color: white;

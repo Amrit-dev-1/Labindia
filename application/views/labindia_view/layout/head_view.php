@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/locomotive-scroll/dist/locomotive-scroll.css">
+
     <!-- AOS CSS (latest version) -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 
@@ -52,7 +54,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <!-- Logo -->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="<?php echo base_url() ?>Home">
                 <img src="<?php echo base_url() ?>assets/images/Logo.png" alt="Logo" class="main-logo">
             </a>
 
@@ -65,12 +67,12 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">
+                        <a class="nav-link active" aria-current="page" href="<?php echo base_url() ?>Home">
                             <img class="header-icon" src="<?php echo base_url() ?>assets/images/home.png" alt="">
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About us </a>
+                        <a class="nav-link" href="<?php echo base_url() ?>About">About us </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Product</a>

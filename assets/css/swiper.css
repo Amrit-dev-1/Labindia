@@ -1,90 +1,153 @@
-.swiper-container {
-	width: 100%;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	margin-top: 12%;
-}
-
-.swiper-slide {
-	background-position: center;
-	background-size: cover;
-	width: 280px !important;
-	background-color: #fff;
-	overflow: hidden;
-	border-radius: 25px;
-}
-
-.swiper-slide {
-	flex-shrink: 0;
-	width: auto;
-	height: auto !important;
+.carousel-container {
 	position: relative;
-	transition-property: transform;
-	display: block;
-	margin: auto;
+	width: 80%;
+	height: 75vh;
+	perspective: 1200px;
+	margin-top: 10%;
 }
 
-.picture {
-	width: 320px;
-	height: 320px;
-	overflow: hidden;
-}
-
-.picture img {
-	display: block;
+.carousel {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	position: absolute;
+	transform-style: preserve-3d;
+	/* Enable 3D transformation for children */
+	transition: transform 1s;
+}
+
+.card {
+	width: 250px;
+	height: 280px;
+	background-color: #96B7C8;
+	border-radius: 25px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform-style: preserve-3d;
+	transition: transform 1s, opacity 1s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5em;
+	transform-origin: center;
+	opacity: 0;
+	visibility: hidden;
+	cursor: pointer;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .detail {
-	padding: 25px 5px;
-	font-weight: 600;
-	text-align: center;
+	height: 300px;
+}
+
+.card.active {
+	transform: translateX(-50%) translateY(-50%) translateZ(260px);
+	opacity: 1;
+	visibility: visible;
+	z-index: 10;
+}
+
+.card.left {
+	transform: translateX(calc(-50% - 220px)) translateY(-50%) rotateY(15deg) translateZ(150px);
+	opacity: 1;
+	visibility: visible;
+	z-index: 5;
+	background-color: #72959A;
+}
+
+.card.right {
+	transform: translateX(calc(-50% + 220px)) translateY(-50%) rotateY(-15deg) translateZ(150px);
+	opacity: 1;
+
+	visibility: visible;
+	z-index: 5;
+	background-color: #72959A;
+
+}
+
+.card.left-hidden,
+.card.right-hidden {
+	transform: translateX(calc(-50% - 440px)) translateY(-50%) translateZ(0);
+	opacity: 1;
+	visibility: visible;
+	z-index: 1;
+	background-color: #3E4044;
+	color: white;
+}
+
+.card.right-hidden {
+	transform: translateX(calc(-50% + 440px)) translateY(-50%) translateZ(0);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+	.carousel-container {
+		width: 90%;
+		height: 50vh;
+	}
+
+	.card {
+		width: 150px;
+		height: 225px;
+	}
+
+	.card.active {
+		transform: translateX(-50%) translateY(-50%) translateZ(150px);
+	}
+
+	.card.left {
+		transform: translateX(calc(-50% - 170px)) translateY(-50%) rotateY(15deg) translateZ(100px);
+	}
+
+	.card.right {
+		transform: translateX(calc(-50% + 170px)) translateY(-50%) rotateY(-15deg) translateZ(100px);
+	}
+
+	.card.left-hidden,
+	.card.right-hidden {
+		transform: translateX(calc(-50% - 340px)) translateY(-50%) translateZ(0);
+	}
+
+	.card.right-hidden {
+		transform: translateX(calc(-50% + 340px)) translateY(-50%) translateZ(0);
+	}
+}
+
+.img-container {
 	height: auto;
+	width: auto;
+	margin-top: 10px;
 }
 
 .detail h3 {
-	margin: 21px 0;
+	text-align: center;
+	margin: 15px 0;
+	font-size: 1.5rem;
 }
 
-.detail span {
-	display: block;
-	font-size: 16px;
-	color: #f44336;
-}
-
-.swiper-3d {
-	perspective: 500px !important;
-}
-
-.Recommened-product {
-    color: #fff;
-    margin: 25px 60px;
-    transform: translateY(25%);
-}
-
-.swiper-wrapper {
-	height: 70% !important;
-}
-
-.swiper-pagination {
-	position: absolute;
-	transform: translateY(50px);
-}
-
-.swiper-container {
+.img-container img {
+	height: auto;
 	width: 100%;
-	max-width: 100%;
-	overflow: hidden;
-  }
-  
-  .swiper-slide {
-	width: auto; /* Ensure slides take up auto width for responsive design */
-	max-width: 30%; /* Ensure slides don't exceed 20% of the container width if you have 5 slides */
-	box-sizing: border-box;
-  }
-  
+}
 
-  
-  
+.product-btn {
+	border: none;
+	font-size: 1rem;
+	color: white;
+	background-color: #0d55d6;
+	border-radius: 14px;
+	padding: 10px 15px;
+	position: relative;
+	text-align: center;
+	top: -30px;
+}
+
+.card.active .product-btn {
+	background-color: #EB6161;
+}
+
+.card.active .product-btn {
+	border: none;
+	color: white;
+}
