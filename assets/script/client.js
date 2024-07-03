@@ -1,64 +1,56 @@
-const slides = document.querySelectorAll(".slide-2");
-const dots = document.querySelectorAll(".dot");
-let currentSlide = 0;
-let isScrolling = false;
 
-function showSlide(index) {
-    slides.forEach((slide, i) => {
-        if (i === index) {
-            gsap.to(slide, { duration: 0.5, opacity: 1, y: 0 });
-            slide.classList.add("active");
-        } else if (i < index) {
-            gsap.to(slide, { duration: 0.5, opacity: 0, y: -100 });
-            slide.classList.remove("active");
-        } else {
-            gsap.to(slide, { duration: 0.5, opacity: 0, y: 100 });
-            slide.classList.remove("active");
+
+const cards = document.querySelectorAll('.card__2');
+let currentIndex = Math.floor(cards.length / 2); // Center card index
+
+function showCard(index) {
+    cards.forEach((card, i) => {
+        let offset = (i - index) % cards.length;
+        if (offset > cards.length / 2) {
+            offset -= cards.length;
+        } else if (offset < -cards.length / 2) {
+            offset += cards.length;
         }
-    });
 
-    dots.forEach((dot, i) => {
+        // Position and style cards
+        card.classList.toggle('card__2--active', i === index);
+        card.classList.toggle('card__2--inactive', i !== index);
+
         if (i === index) {
-            dot.classList.add("active");
+            // Active card
+            card.style.transform = `translateY(0) scale(1)`;
+            card.style.opacity = 1;
+            card.style.zIndex = 2;
+        } else if (offset === 1 || offset === -1) {
+            // Inactive cards
+            card.style.transform = `translateY(${offset * 180}px) scale(0.8)`; 
+            card.style.opacity = 0.6; // Slightly higher opacity for better visibility
+            card.style.zIndex = 1;
         } else {
-            dot.classList.remove("active");
+            // Hide other cards
+            card.style.transform = 'translateY(1000px)'; // Move them far off-screen
+            card.style.opacity = 0;
+            card.style.zIndex = 0;
         }
     });
 }
 
-dots.forEach((dot, index) => {
-    dot.addEventListener("click", () => {
-        showSlide(index);
-        currentSlide = index;
-    });
-});
-
-function handleScroll(event) {
-    if (isScrolling) return;
-    isScrolling = true;
-
-    if (event.deltaY > 0) {
-        // Scroll down
-        currentSlide = (currentSlide + 1) % slides.length;
-    } else {
-        // Scroll up
-        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowUp') {
+        currentIndex = (currentIndex > 0) ? currentIndex - 1 : cards.length - 1;
+    } else if (event.key === 'ArrowDown') {
+        currentIndex = (currentIndex < cards.length - 1) ? currentIndex + 1 : 0;
     }
-    showSlide(currentSlide);
-
-    setTimeout(() => {
-        isScrolling = false;
-    }, 1000); // Delay to prevent rapid slide changes
-}
-
-function autoSlide() {
-    currentSlide = (currentSlide + 1) % slides.length;
-    showSlide(currentSlide);
-}
-
-window.addEventListener("wheel", handleScroll);
-
-document.addEventListener("DOMContentLoaded", () => {
-    showSlide(currentSlide);
-    setInterval(autoSlide, 100000); // Change slide every 3 seconds
+    showCard(currentIndex);
 });
+
+// Add click event listener to each card
+cards.forEach((card, index) => {
+    card.addEventListener('click', () => {
+        currentIndex = index;
+        showCard(currentIndex);
+    });
+});
+
+// Initial display
+showCard(currentIndex);

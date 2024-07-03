@@ -3,6 +3,7 @@ html {
 	height: 100%;
 	-webkit-overflow-scrolling: touch;
 	overflow-scrolling: touch;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -545,7 +546,7 @@ a {
 	color: #103f94;
 	border: 2px solid #103f94;
 	transform: scale(1.1);
-	padding: 10px 25px;
+	padding: 5px 20px;
 	border-radius: 10px;
 }
 
@@ -585,7 +586,7 @@ a {
 }
 
 .container-tab {
-	height: 70%;
+	height: 85%;
 	width: 100%;
 	padding: 0 30px;
 }
@@ -1114,11 +1115,14 @@ main {
 }
 
 .Recommened-product {
-	position: absolute;
+
+	margin-top: 0px;
 }
 
+
+
 .Recommened-product h1 {
-	font-weight: 700;
+	font-weight: 500;
 	font-size: 2.5rem;
 }
 
@@ -1683,12 +1687,13 @@ i.fa-brands.fa-youtube {
 }
 
 .hero-content h3 {
-	font-size: 3rem;
+	font-size: 2rem;
 	-webkit-text-stroke: 1px white;
 	text-stroke: 1px white;
 	color: transparent;
 	font-weight: 700;
 	margin: 0;
+	line-height: 20px;
 }
 
 .hero-content h1 {
@@ -1703,6 +1708,7 @@ i.fa-brands.fa-youtube {
 .hero-content h1 span {
 	color: #ADACB8;
 	font-size: 2.5rem;
+	font-weight: 500;
 }
 
 /* .container-number {
@@ -1714,20 +1720,23 @@ i.fa-brands.fa-youtube {
 
 .num h2 {
 	color: white;
-	font-size: 3rem;
+	font-size: 2.7rem;
 	font-weight: 500;
 	display: flex;
 	justify-content: end;
+	width: 200px;
 }
 
 .num p {
 	color: white;
-	font-size: 1rem;
+	font-size: 0.9rem;
 	text-align: end;
 }
 
 .num span {
 	color: orangered;
+	font-size: 2rem;
+	padding: 8px 2px;
 }
 
 .social-btn button {
@@ -1755,13 +1764,13 @@ i.fa-brands.fa-youtube {
 .hero-content p {
 	font-size: 0.9rem;
 	text-wrap: pretty;
-	margin: 20px 0;
+	margin: 25px 0;
 }
 
 .social-icon {
-	padding: 30px 20px;
+	padding: 25px 0px;
 	width: 90%;
-	margin: 10px auto;
+
 }
 
 .social-icon a {
@@ -1771,7 +1780,7 @@ i.fa-brands.fa-youtube {
 }
 
 .introduction-container {
-	margin-top: 12%;
+	margin-top: 120px;
 }
 
 .product-card-color-1 {
@@ -1801,15 +1810,7 @@ i.fa-brands.fa-youtube {
 	transition: transform 0.3s ease-in-out;
 }
 
-.card {
-	min-height: 150px;
-	background: #fff;
-	border-bottom: 1px solid #ddd;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 1.5em;
-}
+
 
 .nav-btn {
 	padding: 10px;
@@ -2059,9 +2060,11 @@ i.fa-brands.fa-youtube {
 
 .location-tabs {
 	background-color: #103F94;
-	width: 37%;
+	width: max-content;
 	margin: 40px auto;
 	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
 }
 
 .section-4 {
@@ -2144,7 +2147,7 @@ i.fa-brands.fa-youtube {
 	/* Example */
 }
 
-.slider-container-2 {
+/* .slider-container-2 {
 	width: 80%;
 	height: 340px;
 	display: flex;
@@ -2163,7 +2166,7 @@ i.fa-brands.fa-youtube {
 	border-radius: 25px;
 }
 
-.slide-2 {
+.card__2 {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2177,33 +2180,127 @@ i.fa-brands.fa-youtube {
 	padding: 20px;
 	background-color: #EEF7FF;
 	border-radius: 25px;
+} */
+
+.vertical-slider {
+	perspective: 1000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+	/* Reduced gap */
+	position: relative;
+	height: 70vh;
+	/* Adjusted height for better visibility */
 }
 
-.slide-2 p {
+.card__2 {
+	width: 650px;
+	height: 300px;
+	background-color: #EEF7FF;
+
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5em;
+	color: #333;
+	transform-origin: center;
+	position: absolute;
+	transition: transform 0.8s, opacity 0.8s, box-shadow 0.8s;
+	cursor: pointer;
+	padding: 10px;
+}
+
+
+
+.card__2--active {
+	z-index: 2;
+	/* Ensure active card is on top */
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+	/* Enhanced shadow for depth */
+}
+
+.card__2--inactive {
+	z-index: 0;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	filter: blur(2px);
+}
+
+.card__2 p {
 	color: black;
 	font-size: 0.9rem;
-	margin: 30px 10px;
 	text-wrap: balance;
+	padding: 10px;
+	margin-top: -25px;
 }
 
 .container-title h3 {
-	font-weight: 700;
+	font-weight: 500;
 	color: #063970;
 }
 
 .container-title span {
 	font-weight: 600;
+	font-size: 1rem;
+	margin: 0;
 }
+
 
 .container-title {
 	border-bottom: 2px solid #063970;
 	padding: 10px 10px;
 }
 
-.slide-2.active {
+.card__2.active {
 	opacity: 1;
 	transform: translateY(0);
 }
+
+/* 
+.wave-card {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+	opacity: 0;
+	transform: scale(0);
+	transition: opacity 0.3s, transform 0.3s;
+
+	bottom: -25%;
+	right: -50px;
+}
+
+.wave1 {
+	background-color: #d7e6fba8;
+}
+
+.wave2 {
+	background-color: #c0d6f7a8;
+}
+
+.wave3 {
+	background-color: #a7c6f466;
+}
+
+.card__2:hover .wave1 {
+	opacity: 1;
+	transform: scale(3);
+	transition: 0.3s ease-in-out;
+}
+
+.card__2:hover .wave2 {
+	opacity: 1;
+	transform: scale(2);
+	transition: 0.5s ease-in-out;
+}
+
+.card__2:hover .wave3 {
+	opacity: 1;
+	transform: scale(1);
+	transition: 0.8s ease-in-out;
+} */
 
 .nav-dots {
 	position: absolute;
@@ -2230,14 +2327,14 @@ i.fa-brands.fa-youtube {
 }
 
 .container-client-say h1 {
-	font-size: 3.5rem;
+	font-size: 2.5rem;
 	font-weight: 700;
 	border-bottom: 1px solid white;
 	padding: 10px 0;
 }
 
 .container-client-say h3 {
-	font-size: 3rem;
+	font-size: 2.5rem;
 	font-weight: 700;
 	-webkit-text-stroke: 1px white;
 	text-stroke: 1px white;
@@ -2251,4 +2348,21 @@ i.fa-brands.fa-youtube {
 	height: 50vh;
 	margin: 0;
 	perspective: 1000px;
+	margin-top: 20px;
+}
+
+.tab-content {
+	display: none;
+
+}
+
+.tab-content.active {
+	display: block;
+}
+
+.container-client-say p {
+	color: white;
+	font-size: 0.8rem;
+	margin: 20px 0;
+	text-wrap: balance;
 }

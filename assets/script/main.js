@@ -132,33 +132,33 @@ function createScrollAnimations() {
   });
 }
 
-// Initialize the wave-tube animations
-createScrollAnimations();
+// // Initialize the wave-tube animations
+// createScrollAnimations();
 
-// Define your animation for the element with class 'snake'
-gsap.to('.snake', {
-  duration: 3,
-  ease: 'none',
-  y: '-=100',
-  onComplete: function () {
-    gsap.to('.snake', {
-      duration: 2,
-      ease: 'power1.inOut',
-      x: '+=200',
-      onComplete: function () {
-        gsap.to('.snake', {
-          duration: 3,
-          ease: 'power1.inOut',
-          y: '-=200',
-          x: '+=200',
-          onComplete: function () {
-            console.log('Animation complete');
-          }
-        });
-      }
-    });
-  }
-});
+// // Define your animation for the element with class 'snake'
+// gsap.to('.snake', {
+//   duration: 3,
+//   ease: 'none',
+//   y: '-=100',
+//   onComplete: function () {
+//     gsap.to('.snake', {
+//       duration: 2,
+//       ease: 'power1.inOut',
+//       x: '+=200',
+//       onComplete: function () {
+//         gsap.to('.snake', {
+//           duration: 3,
+//           ease: 'power1.inOut',
+//           y: '-=200',
+//           x: '+=200',
+//           onComplete: function () {
+//             console.log('Animation complete');
+//           }
+//         });
+//       }
+//     });
+//   }
+// });
 
 
 
@@ -204,6 +204,29 @@ gsap.to('.snake', {
 //    });
 //  }
 
-//  // Initialize animations
-//  createScrollAnimations();
+ // Initialize animations
+ createScrollAnimations();
 
+function openTab(event, tabName) {
+  // Get all elements with class="tab-content" and hide them
+  var i, tabContent, tabButtons;
+  tabContent = document.getElementsByClassName("tab-content");
+  for (i = 0; i < tabContent.length; i++) {
+      tabContent[i].style.display = "none";
+      tabContent[i].classList.remove("active");
+  }
+
+  // Get all elements with class="tab-button" and remove the class "active"
+  tabButtons = document.getElementsByClassName("tab-button");
+  for (i = 0; i < tabButtons.length; i++) {
+      tabButtons[i].classList.remove("active");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(tabName).style.display = "block";
+  document.getElementById(tabName).classList.add("active");
+  event.currentTarget.classList.add("active");
+}
+
+// Set initial state
+document.getElementById('domestic').style.display = 'block';

@@ -37,7 +37,7 @@
 <body>
   
 
-    <div class="top-bar">
+    <!-- <div class="top-bar">
         <div>
             <a href="#">Contact</a>
             <a href="#">Email</a>
@@ -49,7 +49,7 @@
             <a href="#"><i class="fab fa-linkedin-in"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
         </div>
-    </div>
+    </div> -->
 
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">

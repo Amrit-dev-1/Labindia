@@ -14,8 +14,8 @@
             <img src="<?php echo base_url() ?>assets/images/loader/landing-png.png" alt="image">
         </div>
     </div>
-</div>
- -->
+</div> -->
+
 
 
 <?php $this->load->view('labindia_view/layout/head_view.php'); ?>
@@ -30,7 +30,7 @@
 
         <div class="introduction-container">
             <div class="row">
-                <div class="col-md-8 element-to-animate">
+                <div class="col-md-9 element-to-animate">
                     <div class="container_video" id="videoContainer">
                         <video autoplay muted loop>
                             <source src="assets/images/video-2.mp4" type="video/mp4">
@@ -38,7 +38,7 @@
                         </video>
                         <div class="hero-content" id="heroContent">
                             <h3>Welcome To</h3>
-                            <h1>LABINDIA <span>Analytical</span> </h1>
+                            <h1>LABINDIA <span>ANALYTICAL</span> </h1>
                             <p>With over 40 years of industry expertise and a team of 500+ professionals, Labindia Analytical is your trusted partner for cutting-edge analytical solutions. Compliant with international standards, we serve 6,000+ clients and 15,000+ customers nationwide through our 12 offices across India.</p>
                             <div class="copyright ">
                                 <p>© Copyright 2024. All Rights Reserved.</p>
@@ -47,7 +47,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="container-explore">
                         <div class="container-number d-flex flex-column align-items-center element-to-animate" id="containerNumber">
                             <div class="num text-center">
@@ -186,13 +186,14 @@
     <!-- 2nd panel end -->
 
     <!-- panel 3 start -->
+
     <section class="panel background-color-3">
-        <div class="container">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col-md-4">
                     <div class="container-client-say text-white">
                         <h1>
-                            What our Client Say
+                            What our<br> Client Say
                         </h1>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae deleniti dolorem dolores praesentium possimus impedit eum, quae sequi nisi!</p>
                         <h3>
@@ -202,47 +203,43 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <div class="vertical-slider">
-                        <div class="slider-container-2">
-                            <div class="slider-2">
-                                <div class="slide-2 active">
-                                    <div class="container-title">
-                                        <h3>Cia Rodriguez</h3>
-                                        <span>5 hours ago</span>
-                                    </div>
+                    <div class="container-vertical-slider">
+                        <div class="vertical-slider">
+                            <div class="card__2">
 
-                                    <p>“I can confidently say that their products are top-notch. I have been using their UV-Visible Spectrophotometers for the past few years, and I have never been disappointed with its performance. The instruments are highly reliable, accurate, and efficient, which is essential for my work in the pharmaceutical industry.”</p>
+                                <div class="container-title">
+                                    <h3>John Doe</h3>
+                                    <span>2 days ago</span>
+                                    <!-- <div class="wave-card wave1"></div>
+                                    <div class="wave-card wave2"></div>
+                                    <div class="wave-card wave3"></div> -->
                                 </div>
-                                <div class="slide-2">
-                                    <div class="container-title">
-                                        <h3>John Doe</h3>
-                                        <span>2 days ago</span>
-                                    </div>
-                                    <p>“The service and products provided by Labindia Analytical are exceptional. Their spectrophotometers have significantly improved our lab's efficiency.”</p>
-                                </div>
-                                <div class="slide-2">
-                                    <div class="container-title">
-                                        <h3>Jane Smith</h3>
-                                        <span>1 week ago</span>
-                                    </div>
-                                    <p>“Labindia Analytical has been a game-changer for our research. Their reliable and accurate instruments are exactly what we needed.”</p>
-                                </div>
+                                <p>“The service and products provided by Labindia Analytical are exceptional. Their spectrophotometers have significantly improved our lab's efficiency.”</p>
                             </div>
-                            <div class="nav-dots">
-                                <span class="dot active"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
+                            <div class="card__2">
+                                <div class="container-title">
+                                    <h3>Cia Rodriguez</h3>
+                                    <span>5 hours ago</span>
+                                </div>
+
+                                <p>
+                                    "Their UV-Visible Spectrophotometers are top-notch. I've used them for years in the pharmaceutical industry and they've always been reliable, accurate, and efficient."</p>
                             </div>
+                            <div class="card__2">
+                                <div class="container-title">
+                                    <h3>Jane Smith</h3>
+                                    <span>1 week ago</span>
+                                </div>
+                                <p>“Labindia Analytical has been a game-changer for our research. Their reliable and accurate instruments are exactly what we needed.”</p>
+                            </div>
+
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
 
     </section>
-
-
 
     <!-- panel 3 end  -->
 
@@ -391,58 +388,15 @@
 
     <!-- panel 4 end  -->
 
-    <!-- addtional Panel start -->
-
-
-    <!-- s -->
-
-
-    <!-- addtional Panel end -->
-
-    <!-- panel 5 start -->
-
-    <!-- <section class="panel panel-5 background-color-3">
-        <div class="container-account">
-            <div class="container-form element-to-animate-3">
-                <div class="form-heading">
-                    <h2>Create An Account</h2>
-                    <span>
-                        Already a user?
-                        <a href="#">Sign In</a>
-                    </span>
-                </div>
-
-                <div class="form-inputs">
-                    <form action="POST">
-                        <input type="text" id="fname" name="firstname" class="custom-input element-to-animate" placeholder="Your first name..">
-
-                        <input type="email" id="email" name="email" class="custom-input element-to-animate" placeholder="Your email..">
-
-                        <input type="tel" id="phone" name="phone" class="custom-input element-to-animate" placeholder="Your phone number..">
-
-                        <input type="text" id="city" name="city" class="custom-input element-to-animate" placeholder="Your city..">
-
-                        <input type="text" id="purchase" name="purchase" class="custom-input element-to-animate" placeholder="When are you planning to purchase">
-
-                        <input type="date" id="application" name="application" class="custom-input element-to-animate" placeholder="Application">
-
-                        <textarea id="requirements" name="requirements" rows="4" cols="50" class="custom-input element-to-animate" placeholder="Please elaborate your requirement"></textarea>
-
-                        <div class="check-box d-flex">
-                            <input type="checkbox" id="agree" name="agree">
-                            <span>I have read and agree to the privacy Policy | Or Sign In With</span>
-                            <button>Get Quote</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- panel 5 end -->
-
-
 </div>
+
+
+<!-- panel 5 start -->
+
+<!-- panel 5 end -->
+
+
+<!-- Contact Form start -->
 
 <div class="container-motion background-color-3">
     <div class="section-1">
@@ -455,19 +409,17 @@
                         <button>Connect Now</button>
                     </div>
                 </div>
-                <!-- <div class="connect-img">
-                        <img src="<?php echo base_url() ?>assets/images/connect-img-white.png" class="img-fluid" alt="Circular Image of Contact Us">
-                    </div> -->
+
             </div>
         </div>
     </div>
     <div class="container-snake-wave">
-        <div class="wave-tube">
+        <!-- <div class="wave-tube">
             <svg width="100%" height="100%" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" class="wave">
                 <path id="wavePath1" d="M0 0 H300 Q400 0 400 100 V700" stroke="white" stroke-width="2" fill="none" />
             </svg>
             <div class="ball"></div>
-        </div>
+        </div> -->
         <div class="section-2">
             <div class="container-head-office text-white">
                 <div class="row">
@@ -563,109 +515,120 @@
             </div>
         </div>
         <div class="section-4">
-            <!-- <div class="location-tabs">
-                <button class="tab-button ">Domestic Offices</button>
-                <button class="tab-button">International Partners</button>
-            </div> -->
+            <div class="location-tabs">
+                <button class="tab-button" onclick="openTab(event, 'domestic')">Domestic Offices</button>
+                <button class="tab-button" onclick="openTab(event, 'international')">International Partners</button>
+            </div>
+
+
+
+            <div id="international" class="tab-content" style="display:none;">
+                <h2>International Partners</h2>
+                <p>Details about international partners go here.</p>
+            </div>
+
             <div class="container text-white mt-4">
-                <div class="row">
-                    <div class="col-md-3 p-4">
-                        <div class="domestic-office-detail">
-                            <div class="location-detail d-flex">
-                                <span><i class="fa-solid fa-location-dot"></i></span>
-                                <h4>Lucknow</h4>
-                            </div>
-                            <div class="contact-detail d-flex mt-2">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 p-4">
-                        <div class="domestic-office-detail">
-                            <div class="location-detail d-flex">
-                                <span><i class="fa-solid fa-location-dot"></i></span>
-                                <h4>Hyderabad</h4>
-                            </div>
-                            <div class="contact-detail d-flex mt-2">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                <div class="container tab-content" id="domestic" style="display: none;">
+                    <div class="row ">
+                        <div class="col-md-3 p-4">
+                            <div class="domestic-office-detail">
+                                <div class="location-detail d-flex">
+                                    <span><i class="fa-solid fa-location-dot"></i></span>
+                                    <h4>Lucknow</h4>
+                                </div>
+                                <div class="contact-detail d-flex mt-2">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 p-4">
-                        <div class="domestic-office-detail">
-                            <div class="location-detail d-flex">
-                                <span><i class="fa-solid fa-location-dot"></i></span>
-                                <h4>Vadodara</h4>
-                            </div>
-                            <div class="contact-detail d-flex mt-2">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 p-4">
-                        <div class="domestic-office-detail">
-                            <div class="location-detail d-flex">
-                                <span><i class="fa-solid fa-location-dot"></i></span>
-                                <h4>Pune</h4>
-                            </div>
-                            <div class="contact-detail d-flex mt-2">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                        <div class="col-md-3 p-4">
+                            <div class="domestic-office-detail">
+                                <div class="location-detail d-flex">
+                                    <span><i class="fa-solid fa-location-dot"></i></span>
+                                    <h4>Hyderabad</h4>
+                                </div>
+                                <div class="contact-detail d-flex mt-2">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 p-4">
-                        <div class="domestic-office-detail">
-                            <div class="location-detail d-flex">
-                                <span><i class="fa-solid fa-location-dot"></i></span>
-                                <h4>Delhi</h4>
-                            </div>
-                            <div class="contact-detail d-flex mt-2">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 p-4">
-                        <div class="domestic-office-detail">
-                            <div class="location-detail d-flex">
-                                <span><i class="fa-solid fa-location-dot"></i></span>
-                                <h4>Chennai</h4>
-                            </div>
-                            <div class="contact-detail d-flex mt-2">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                        <div class="col-md-3 p-4">
+                            <div class="domestic-office-detail">
+                                <div class="location-detail d-flex">
+                                    <span><i class="fa-solid fa-location-dot"></i></span>
+                                    <h4>Vadodara</h4>
+                                </div>
+                                <div class="contact-detail d-flex mt-2">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 p-4">
-                        <div class="domestic-office-detail">
-                            <div class="location-detail d-flex">
-                                <span><i class="fa-solid fa-location-dot"></i></span>
-                                <h4>Kolkatta</h4>
-                            </div>
-                            <div class="contact-detail d-flex mt-2">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                        <div class="col-md-3 p-4">
+                            <div class="domestic-office-detail">
+                                <div class="location-detail d-flex">
+                                    <span><i class="fa-solid fa-location-dot"></i></span>
+                                    <h4>Pune</h4>
+                                </div>
+                                <div class="contact-detail d-flex mt-2">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 p-4">
-                        <div class="domestic-office-detail">
-                            <div class="location-detail d-flex">
-                                <span><i class="fa-solid fa-location-dot"></i></span>
-                                <h4>Bangalore</h4>
+                        <div class="col-md-3 p-4">
+                            <div class="domestic-office-detail">
+                                <div class="location-detail d-flex">
+                                    <span><i class="fa-solid fa-location-dot"></i></span>
+                                    <h4>Delhi</h4>
+                                </div>
+                                <div class="contact-detail d-flex mt-2">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                                </div>
                             </div>
-                            <div class="contact-detail d-flex mt-2">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                        </div>
+                        <div class="col-md-3 p-4">
+                            <div class="domestic-office-detail">
+                                <div class="location-detail d-flex">
+                                    <span><i class="fa-solid fa-location-dot"></i></span>
+                                    <h4>Chennai</h4>
+                                </div>
+                                <div class="contact-detail d-flex mt-2">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 p-4">
+                            <div class="domestic-office-detail">
+                                <div class="location-detail d-flex">
+                                    <span><i class="fa-solid fa-location-dot"></i></span>
+                                    <h4>Kolkatta</h4>
+                                </div>
+                                <div class="contact-detail d-flex mt-2">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 p-4">
+                            <div class="domestic-office-detail">
+                                <div class="location-detail d-flex">
+                                    <span><i class="fa-solid fa-location-dot"></i></span>
+                                    <h4>Bangalore</h4>
+                                </div>
+                                <div class="contact-detail d-flex mt-2">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>8/10, Ground Floor, East Patel Nagar, New Delhi - 110008. +91-(011)-43306001 / 6010</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
         <div class="section-5">
@@ -698,46 +661,10 @@
 
 </div>
 
-<!-- <div class="lastContainer">
-    <div class="brand-container">
-        <div class="row">
-            <div class="col-md-2">
-                <div class="head-brand">
-                    <h2>Our <span>Client</span></h2>
-
-                </div>
-            </div>
-            <div class="col-md-10">
-                <div class="slider-container">
-                    <div class="custom-slider">
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-1.png" alt="Icon 1"></div>
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-2.png" alt="Icon 2"></div>
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-3.png" alt="Icon 3"></div>
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-4.png" alt="Icon 3"></div>
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-5.png" alt="Icon 3"></div>
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-6.png" alt="Icon 3"></div>
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-7.png" alt="Icon 3"></div>
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-8.png" alt="Icon 3"></div>
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-9.png" alt="Icon 3"></div>
-
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-1.png" alt="Icon 1"></div>
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-2.png" alt="Icon 2"></div>
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-3.png" alt="Icon 3"></div>
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-4.png" alt="Icon 3"></div>
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-5.png" alt="Icon 3"></div>
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-6.png" alt="Icon 3"></div>
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-7.png" alt="Icon 3"></div>
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-8.png" alt="Icon 3"></div>
-                        <div class="custom-icon"><img src="<?php echo base_url() ?>assets/images/Color-client-logo/logo-9.png" alt="Icon 3"></div>
+<!-- Contact Form end -->
 
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-</div> -->
 
 <!-- <div class="footer">
     <div class="inner-footer">
